@@ -1,0 +1,171 @@
+# INFO: Use the permission name of enchantments if you want to add them to this file (ie damageartifact, not damage_artifact)
+#        如果要将附魔添加到此文件中，请使用附魔的权限名称  
+
+curse-color: '&c'
+normal-color: '&7'
+description-color: '&8'
+no-conflicts: '&c没有冲突'
+artifact-color: '&e'
+spell-color: '&9'
+not-curse-color: '&7'
+missing-requirements-format: <strikethrough>
+special-color: '&d'
+no-targets: '&c无法应用'
+enchantments:
+  impaling:
+    name: 穿刺
+    description: Trident deals additional damage to ocean mobs.
+  thorns:
+    name: 荆棘
+    description: Reflects some of the damage taken when hit.
+  smite:
+    name: 亡灵杀手
+    description: Increases damage against undead mobs.
+  unbreaking:
+    name: 耐久
+    description: Increases item durability.
+  feather_falling:
+    name: 摔落保护
+    description: Reduces fall damage.
+  respiration:
+    name: 水下呼吸
+    description: Extends underwater breathing time.
+  projectile_protection:
+    name: 弹射物保护
+    description: Reduces projectile damage.
+  knockback:
+    name: 击退
+    description: Increases knockback.
+  fire_aspect:
+    name: 火焰附加
+    description: Sets target on fire.
+  luck_of_the_sea:
+    name: 海之眷顾
+    description: Increases rate of good loot.
+  channeling:
+    name: 引雷
+    description: Strikes lightning where trident lands during thunderstorms.
+  sharpness:
+    name: 锋利
+    description: Increases damage.
+  bane_of_arthropods:
+    name: 节肢杀手
+    description: Increases damage and slows arthropod mobs.
+  efficiency:
+    name: 效率
+    description: Increases mining speed.
+  soul_speed:
+    name: 灵魂疾行
+    description: Increases walking speed on soul sand and soul soil.
+  loyalty:
+    name: 忠诚
+    description: Trident returns after being thrown.
+  silk_touch:
+    name: 精准采集
+    description: Mined blocks drop themselves exactly.
+  quick_charge:
+    name: 快速装填
+    description: Decreases crossbow charging time.
+  aqua_affinity:
+    name: 水下速掘
+    description: Increases underwater mining speed.
+  multishot:
+    name: 多重射击
+    description: Shoots 3 arrows.
+  blast_protection:
+    name: 爆炸保护
+    description: Reduces explosion damage and knockback.
+  sweeping:
+    name: 横扫之刃
+    description: Increases sweeping attack damage.
+  piercing:
+    name: 穿透
+    description: Arrows pass through multiple entities.
+  fire_protection:
+    name: 火焰保护
+    description: Reduces fire damage and burn time.
+  swift_sneak:
+    name: Swift Sneak
+    description: Increases speed while sneaking.
+  mending:
+    name: 经验修补
+    description: Repair the item while gaining XP orbs.
+  protection:
+    name: 保护
+    description: Reduces most types of damage.
+  lure:
+    name: 饵钓
+    description: Decreases fishing wait time.
+  punch:
+    name: 冲击
+    description: Increases arrow knockback.
+  frost_walker:
+    name: 冰霜行者
+    description: Turns water beneath the player into ice.
+  power:
+    name: 力量
+    description: Increases arrow damage.
+  riptide:
+    name: 激流
+    description: Trident launches player when thrown in water or while raining.
+  fortune:
+    name: 时运
+    description: Increases certain block drops.
+  looting:
+    name: 抢夺
+    description: Increases mob loot.
+  binding_curse:
+    name: 绑定诅咒
+    description: Items cannot be removed from armor slots.
+  depth_strider:
+    name: 深海探索者
+    description: Increases underwater movement speed.
+  vanishing_curse:
+    name: 消失诅咒
+    description: Item destroyed on death.
+  infinity:
+    name: 无限
+    description: Shooting consumes no regular arrows.
+  flame:
+    name: 火矢
+    description: Arrows set target on fire.
+above-max-level-color: <gradient:#1D976C:#93F9B9>
+messages:
+  prefix: '&f[&aEcoEnchants&f] '
+  skip-removed: '&c成功移除 &f对物品的描述!'
+  link-to-locale: 'The locale has been successfully exported! Your token is: %token%'
+  gave-random-book: '&fGave %enchantment% book!'
+  disabled-descriptions: '&fYou have successfully &cdisabled &fenchantment descriptions!'
+  cannot-afford-type: '&cYou can''t afford to do this! &fCost: &a%cost% %type%'
+  outdated: '&aEcoEnchants &f版本已过期! 当前版本 &e%ver%&f, 最新版本 &e%newver%&f. 新版本地址 &a&lhttps://www.spigotmc.org/resources/ecoenchants.79573/'
+  must-hold-item: '&cYou must be holding an enchantable item!'
+  export-failed: '&cExporting the locale failed. Try again later!'
+  enabled-descriptions: '&fYou have successfully &aenabled &fenchantment descriptions!'
+  on-cooldown: '&f这个主动技能还在冷却之中! 请等待 &a%seconds% 秒&f 再一次使用 &a%name%&f 技能.'
+  descriptions-disabled: '&cEnchantment descriptions are disabled on this server.'
+  no-enchants-available: '&fNo available enchantments found for this item!'
+  invalid-locale: '&cYou must supply a valid locale! Check the wiki for more information.'
+  enchantinfo: |
+    %name%: &r%description%
+    &9最高等级: &r%maxlevel%
+    &9可以应用于: &r%target%
+    &9冲突附魔: &r%conflicts%
+  got-special: 你获得了一个 &d特殊 &f附魔!
+  missing-enchant: '&c你必须指定一个附魔!'
+  reloaded: 重载成功!
+  downloaded-locale: Locale downloaded! Reload config to enact changes.
+  skip-added: '&a成功增加 &f对物品的描述!'
+  must-hold-item-other: '&cPlayer is not holding an enchantable item!'
+  received-random-book: '&fYou have received a %enchantment% book!'
+  applied-random-enchant: '&fAdded %enchantment% to your item!'
+  not-player: '&c这个指令只能由玩家执行！'
+  invalid-command: '&cUnknown subcommand!'
+  cannot-transmit: '&cYou can''t transmit here!'
+  not-found: '&c无法找到该附魔: &f%name%.'
+  no-permission: '&c你没有权限这么做!'
+  requires-player: '&cRequires a Player!'
+  specify-locale-subcommand: '&cYou must specify whether to export or download a locale!'
+  used-spell: '&f触发了 &a%name%&f 技能!'
+  invalid-player: '&cInvalid Player!'
+special-particle-color: '#FF69B4'
+
