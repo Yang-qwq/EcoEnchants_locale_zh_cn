@@ -1,0 +1,2 @@
+# EcoEnchants_locale_zh_cn
+EcoEnchants插件的本地汉化
