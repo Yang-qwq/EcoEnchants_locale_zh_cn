@@ -2,7 +2,7 @@
 # Heat Treated EcoEnchant
 #
 
-name: "Heat Treated"
+name: "过热保护"
 description: Take less damage in hot biomes.
 enabled: true
 

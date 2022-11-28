@@ -2,7 +2,7 @@
 # Rain Artifact EcoEnchant
 #
 
-name: "Rain Artifact"
+name: "雨水粒子"
 description: Creates rain particles.
 enabled: true
 
