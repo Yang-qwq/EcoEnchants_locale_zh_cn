@@ -1,0 +1,26 @@
+# 
+# End Infusion EcoEnchant
+
+description: Increases damage dealt in the end.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - nether_infusion
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - sword
+name: 末地独裁者
+config:
+  multiplier: 0.02
+

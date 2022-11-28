@@ -1,0 +1,40 @@
+# 
+# Vein EcoEnchant
+
+description: Mine blocks in a vein.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - drill
+  - blast_mining
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - pickaxe
+name: 连锁采矿
+config:
+  blocks-per-level: 8
+  whitelisted-blocks:
+  - coal_ore
+  - iron_ore
+  - gold_ore
+  - ancient_debris
+  - lapis_ore
+  - diamond_ore
+  - redstone_ore
+  - nether_quartz_ore
+  - gilded_blackstone
+  - nether_gold_ore
+  - glowstone
+  disable-on-sneak: true
+

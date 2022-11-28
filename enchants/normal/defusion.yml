@@ -1,0 +1,32 @@
+# 
+# Defusion EcoEnchant
+
+description: Increases damage against creepers.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: common
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - sharpness
+  - bane_of_arthropods
+  - smite
+  - butchering
+  - razor
+  - ender_slayer
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - sword
+  - axe
+name: 分解
+config:
+  bonus-per-level: 2.5
+

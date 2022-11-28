@@ -1,0 +1,46 @@
+# 
+# Aiming EcoEnchant
+
+description: Arrows hone in on your target.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - bow
+name: 追踪
+config:
+  require-full-force: true
+  check-ticks: 10
+  scale-on-force: true
+  checks-per-level: 2
+  distance-per-level: 4
+  targets:
+  - zombie
+  - creeper
+  - player
+  - skeleton
+  - spider
+  - wither
+  - ender_dragon
+  - wither_skeleton
+  - husk
+  - piglin
+  - hoglin
+  - pig
+  - chicken
+  - cow
+  - cave_spider
+  - horse
+

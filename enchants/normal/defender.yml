@@ -1,0 +1,23 @@
+# 
+# Defender EcoEnchant
+
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - bow
+  - crossbow
+name: 护佑
+description: Prevents damaging your own pets.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: uncommon
+

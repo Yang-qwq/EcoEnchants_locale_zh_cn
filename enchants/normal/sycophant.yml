@@ -1,0 +1,25 @@
+# 
+# Sycophant EcoEnchant
+
+description: Heals a portion of damage blocked.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - shield
+name: 生命转化
+config:
+  health-per-level: 1
+

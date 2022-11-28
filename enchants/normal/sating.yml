@@ -1,0 +1,25 @@
+# 
+# Sating EcoEnchant
+
+description: Reduces hunger loss.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - helmet
+name: 节食
+config:
+  chance-per-level: 10
+

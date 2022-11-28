@@ -1,0 +1,29 @@
+# 
+# Disappear EcoEnchant
+
+description: Go invisble if damaged on low health.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 隐匿
+config:
+  threshold: 5
+  ticks-per-level: 2
+

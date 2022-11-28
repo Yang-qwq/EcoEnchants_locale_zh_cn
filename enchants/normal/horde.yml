@@ -1,0 +1,26 @@
+# 
+# Horde EcoEnchant
+
+description: Increases damage dealt the more mobs are nearby.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - sword
+name: 万人敌
+config:
+  multiplier-per-level: 0.005
+  distance-per-level: 2.5
+

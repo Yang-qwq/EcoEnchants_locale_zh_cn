@@ -1,0 +1,26 @@
+# 
+# Dexterous EcoEnchant
+
+description: Increases attack speed.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - sword
+  - axe
+name: 轻巧
+config:
+  add-speed-per-level: 0.2
+

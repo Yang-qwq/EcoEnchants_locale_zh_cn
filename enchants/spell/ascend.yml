@@ -1,0 +1,30 @@
+#
+# Ascend EcoEnchant
+#
+
+description: Levitates you into the air
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - sword
+name: 腾空
+config:
+  not-while-sneaking: false
+  ticks-per-level: 6
+  cooldown: 90
+  activation-sound: ENTITY_FIREWORK_ROCKET_LARGE_BLAST
+  power: 25
+

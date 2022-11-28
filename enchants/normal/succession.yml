@@ -1,0 +1,30 @@
+# 
+# Succession EcoEnchant
+
+description: Shoots multiple arrows in a burst.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - tripleshot
+  - pentashot
+  - buckshot
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - bow
+name: 连续射击
+config:
+  delay-between-arrows: 4
+  per-arrow-damage: true
+  extra-arrows-per-level: 1
+

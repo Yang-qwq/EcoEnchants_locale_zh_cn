@@ -1,0 +1,27 @@
+# 
+# Netheric EcoEnchant
+
+description: Increases damage dealt in the nether.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - enderism
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - bow
+  - crossbow
+name: 地狱守望者
+config:
+  multiplier: 0.02
+

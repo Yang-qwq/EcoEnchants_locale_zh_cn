@@ -1,0 +1,43 @@
+# 
+# Music Artifact EcoEnchant
+
+description: Creates note particles.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - pickaxe
+  - sword
+  - axe
+  - elytra
+  - bow
+  - crossbow
+  - trident
+name: 音符粒子
+config:
+  amount: 10
+  y-delta: 0.07
+  on-blocks:
+  - diamond_ore
+  - gold_ore
+  - lapis_ore
+  - redstone_ore
+  - iron_ore
+  - obsidian
+  - ancient_debris
+  use-double-helix: false
+  radius: 1
+  radius-multiplier: 5
+  particle-tick-delay: 2
+

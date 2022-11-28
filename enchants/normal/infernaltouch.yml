@@ -1,0 +1,26 @@
+# 
+# Infernal Touch EcoEnchant
+
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - silk_touch
+  - stone_switcher
+  disabled-in-worlds: []
+  targets:
+  - pickaxe
+name: 熔炼
+description: Automatically smelt mined blocks.
+config:
+  drop-xp: true
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+

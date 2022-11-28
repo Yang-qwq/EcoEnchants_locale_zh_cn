@@ -1,0 +1,32 @@
+# 
+# Telekinesis EcoEnchant
+
+description: Drops and xp go directly into your inventory.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: uncommon
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - pickaxe
+  - axe
+  - shovel
+  - hoe
+  - sword
+  - bow
+  - crossbow
+  - trident
+name: 心灵遥感
+config:
+  use-orb: true
+  not-on-players: false
+

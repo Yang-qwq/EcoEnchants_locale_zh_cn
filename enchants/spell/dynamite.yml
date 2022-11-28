@@ -1,0 +1,32 @@
+# 
+# Dynamite EcoEnchant
+
+description: Mines blocks in a large area.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - pickaxe
+name: 定时炸弹
+config:
+  not-while-sneaking: true
+  base-bonus: 2
+  per-level-bonus: 1
+  cooldown: 30
+  activation-sound: ENTITY_DRAGON_FIREBALL_EXPLODE
+  hardness-check: true
+  blacklisted-blocks:
+  - bedrock
+

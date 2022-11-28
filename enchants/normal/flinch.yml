@@ -1,0 +1,26 @@
+# 
+# Flinch EcoEnchant
+
+description: Chance to blind your attacker.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - shield
+name: 镜子
+config:
+  chance-per-level: 2.5
+  ticks-per-level: 5
+

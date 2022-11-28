@@ -1,0 +1,25 @@
+# 
+# Curse of Harmlessness EcoEnchant
+
+description: Chance for attacks to do nothing.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: false
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - sword
+  - axe
+name: 无害诅咒
+config:
+  chance-per-level: 15
+

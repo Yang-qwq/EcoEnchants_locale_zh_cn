@@ -1,0 +1,28 @@
+# 
+# Famine EcoEnchant
+
+description: Chance of giving your opponent hunger.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 8
+  targets:
+  - sword
+name: 饥饿
+config:
+  amplifier-per-level: 1
+  allow-not-fully-charged: false
+  chance-per-level: 1.5
+  ticks-per-level: 40
+

@@ -1,0 +1,29 @@
+# 
+# Frozen EcoEnchant
+
+description: Chance to give your attacker slowness.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 寒鳞
+config:
+  chance-per-level: 0.6
+  points-per-level: 6
+

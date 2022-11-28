@@ -1,0 +1,32 @@
+# 
+# Forcefield EcoEnchant
+
+description: Damages all nearby monsters.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 力场
+config:
+  bonus-per-level: 0.3
+  damage-chance: 0.2
+  initial-distance: 1.5
+  damage-per-level: 0.5
+  repeat-ticks: 20
+

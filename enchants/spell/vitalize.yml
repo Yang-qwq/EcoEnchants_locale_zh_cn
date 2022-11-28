@@ -1,0 +1,31 @@
+# 
+# Vitalize EcoEnchant
+
+description: Puts you back on max health
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 1
+  targets:
+  - sword
+  - axe
+  - pickaxe
+  - shovel
+name: 振奋
+config:
+  cooldown: 60
+  not-while-sneaking: false
+  spawn-heart-particles: true
+  activation-sound: ENTITY_PLAYER_LEVELUP
+

@@ -1,0 +1,26 @@
+# 
+# Weakening EcoEnchant
+
+description: Increases subsequent damage dealt to opponent.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - sword
+name: 追击
+config:
+  multiplier-while-weak: 1.25
+  ticks-per-level: 1.5
+

@@ -1,0 +1,25 @@
+# 
+# Graceful EcoEnchant
+
+description: Chance of getting slow falling just above hitting the ground.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - boots
+name: 优雅着陆
+config:
+  chance-per-level: 4
+

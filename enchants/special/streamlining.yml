@@ -1,0 +1,25 @@
+# 
+# Streamlining EcoEnchant
+
+description: Increases movement speed.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 8
+  targets:
+  - boots
+name: 音速
+config:
+  speed-per-level: 0.02
+

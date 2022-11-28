@@ -1,0 +1,27 @@
+# 
+# Radiance EcoEnchant
+
+description: Causes entities to glow near where arrow lands.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - bow
+  - crossbow
+name: 照明弹
+config:
+  duration-per-level: 10
+  radius-multiplier: 3
+

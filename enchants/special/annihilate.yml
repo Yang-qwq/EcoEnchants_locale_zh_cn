@@ -1,0 +1,29 @@
+# 
+# Annihilate EcoEnchant
+
+description: Extreme Knockback.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - knockback
+  - tornado
+  - grapple
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - sword
+  - axe
+name: 湮灭
+config:
+  velocity-multiplier: 2.5
+

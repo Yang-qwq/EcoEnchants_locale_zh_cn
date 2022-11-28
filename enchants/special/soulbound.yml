@@ -1,0 +1,25 @@
+# 
+# Soulbound EcoEnchant
+
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - all
+name: 灵魂绑定
+description: Keep this item on death.
+config:
+  remove-after: false
+  on-books: true
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+

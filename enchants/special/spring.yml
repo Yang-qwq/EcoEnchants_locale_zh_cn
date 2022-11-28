@@ -1,0 +1,25 @@
+# 
+# Spring EcoEnchant
+
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - boots
+name: 弹簧
+description: Increases jump height and distance.
+config:
+  disable-on-sneak: false
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+

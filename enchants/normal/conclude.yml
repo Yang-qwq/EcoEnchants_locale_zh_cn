@@ -1,0 +1,26 @@
+# 
+# Conclude EcoEnchant
+
+description: Chance to instantly kill entities on low health.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - trident
+name: 终结
+config:
+  chance-per-level: 10
+  minimum-health-per-level: 1
+

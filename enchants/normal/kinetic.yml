@@ -1,0 +1,25 @@
+# 
+# Kinetic EcoEnchant
+
+description: Reduces damage taken when flying into a wall.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - elytra
+name: 缓冲
+config:
+  reduction-per-level: 15
+

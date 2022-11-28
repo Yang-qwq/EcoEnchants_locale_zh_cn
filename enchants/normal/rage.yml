@@ -1,0 +1,26 @@
+# 
+# Rage EcoEnchant
+
+description: Chance of angering nearby monsters towards your opponent.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - bow
+name: 激怒
+config:
+  chance-per-level: 3
+  distance-per-level: 4
+

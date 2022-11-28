@@ -1,0 +1,28 @@
+# 
+# Evasion EcoEnchant
+
+description: Chance to ignore incoming damage.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 闪避
+config:
+  chance-per-level: 0.5
+

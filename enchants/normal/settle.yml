@@ -1,0 +1,30 @@
+# 
+# Settle EcoEnchant
+
+description: Increases damage against creepers.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: common
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - power
+  - force
+  - revenant
+  - slaughter
+  - insecticide
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - bow
+name: 抚慰
+config:
+  multiplier: 0.4
+

@@ -1,0 +1,25 @@
+# 
+# Paladin EcoEnchant
+
+description: Increases damage dealt when riding a horse.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - sword
+name: 圣骑士
+config:
+  multiplier: 0.2
+

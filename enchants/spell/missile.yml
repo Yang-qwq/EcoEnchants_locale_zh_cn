@@ -1,0 +1,30 @@
+# 
+# Missile EcoEnchant
+
+description: Shoots a wither skull
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - sword
+  - axe
+name: 导弹
+config:
+  not-while-sneaking: false
+  cooldown: 20
+  activation-sound: ENTITY_WITHER_SHOOT
+  velocity: 3
+  damage-per-level: 8
+

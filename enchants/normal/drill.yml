@@ -1,0 +1,35 @@
+# 
+# Drill EcoEnchant
+
+description: Mines blocks behind other blocks.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - lumberjack
+  - blast_mining
+  - vein
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - pickaxe
+  - axe
+  - shovel
+name: 穿凿
+config:
+  blocks-per-level: 1
+  chance-per-level: 100
+  disable-on-sneak: true
+  hardness-check: true
+  blacklisted-blocks:
+  - bedrock
+

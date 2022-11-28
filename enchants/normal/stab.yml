@@ -1,0 +1,26 @@
+# 
+# Stab EcoEnchant
+
+description: Increases melee trident damage.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - trident
+name: 尖刺
+config:
+  damage-base: 0.5
+  damage-per-level: 0.5
+

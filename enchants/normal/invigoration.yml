@@ -1,0 +1,30 @@
+# 
+# Invigoration EcoEnchant
+
+description: Increases outgoing damage and reduces incoming damage when low on health.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 全神贯注
+config:
+  damage-multiplier: 2.5
+  below-health: 5
+  reduction-multiplier: 5
+

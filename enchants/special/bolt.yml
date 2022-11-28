@@ -1,0 +1,28 @@
+# 
+# Bolt EcoEnchant
+
+description: Chance of striking powerful lightning on your opponent.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - sword
+name: 雷暴
+config:
+  allow-not-fully-charged: false
+  local-lightning-sound: false
+  chance-per-level: 5
+  lightning-damage: 8
+

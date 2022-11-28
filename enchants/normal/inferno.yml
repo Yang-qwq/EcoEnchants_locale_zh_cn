@@ -1,0 +1,22 @@
+# 
+# Infernal EcoEnchant
+
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - trident
+name: 恶魔
+description: Flaming tridents.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: uncommon
+

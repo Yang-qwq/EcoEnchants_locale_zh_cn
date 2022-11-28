@@ -1,0 +1,30 @@
+# 
+# Pentashot EcoEnchant
+
+description: Shoots 5 arrows.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - succession
+  - tripleshot
+  - buckshot
+  disabled-in-worlds: []
+  maximum-level: 1
+  targets:
+  - bow
+name: 五重射击
+config:
+  angle: 11
+  chance-per-level: 100
+  side-arrows-per-level: 2
+

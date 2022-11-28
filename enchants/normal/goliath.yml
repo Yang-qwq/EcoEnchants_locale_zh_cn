@@ -1,0 +1,26 @@
+# 
+# Goliath EcoEnchant
+
+description: Increases damage against entities with more health than you.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 8
+  targets:
+  - sword
+name: 劣势转化
+config:
+  multiplier-cap: 2.5
+  multiplier: 0.01
+

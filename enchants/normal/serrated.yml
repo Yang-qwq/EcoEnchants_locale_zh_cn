@@ -1,0 +1,31 @@
+# 
+# Serrated EcoEnchant
+
+description: Trident deals additional damage.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: common
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - bladed
+  - phantasm
+  - arachnid
+  - pacify
+  - abattoir
+  - impaling
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - trident
+name: 锯齿
+config:
+  multiplier: 0.25
+

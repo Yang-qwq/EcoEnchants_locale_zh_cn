@@ -1,0 +1,26 @@
+# 
+# Spiked EcoEnchant
+
+description: Hooking onto an entity will damage it.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: common
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - harpoon
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - rod
+name: 刺钩
+config:
+  damage-per-level: 1
+

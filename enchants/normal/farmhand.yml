@@ -1,0 +1,28 @@
+# 
+# Farmhand EcoEnchant
+
+description: Till blocks around initial block.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - hoe
+name: 农场主
+config:
+  per-block-damage: true
+  per-level-radius: 1
+  use-cube: true
+  initial-radius: 1
+

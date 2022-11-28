@@ -1,0 +1,25 @@
+# 
+# Curse of Hunger EcoEnchant
+
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: false
+  conflicts:
+  - sating
+  disabled-in-worlds: []
+  targets:
+  - helmet
+name: 饥饿诅咒
+description: Increases hunger loss.
+config:
+  times-more-hunger: 2
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: legendary
+

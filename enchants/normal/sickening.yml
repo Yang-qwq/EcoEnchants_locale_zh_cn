@@ -1,0 +1,27 @@
+# 
+# Sickening EcoEnchant
+
+description: Chance of nauseating your opponent.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - bow
+  - crossbow
+name: 恶心
+config:
+  chance-per-level: 3
+  duration-per-level: 30
+

@@ -1,0 +1,27 @@
+# 
+# Splash EcoEnchant
+
+description: Damages entities near where trident lands but does not drop experience.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - wisdom
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - trident
+name: 飞溅
+config:
+  radius-multiplier: 2
+  damage-per-level: 1
+

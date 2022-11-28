@@ -1,0 +1,29 @@
+# 
+# Incandescence EcoEnchant
+
+description: Light your attacker on fire.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 炽热
+config:
+  ticks-per-point: 2
+  initial-ticks: 20
+

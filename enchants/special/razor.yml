@@ -1,0 +1,34 @@
+# 
+# Razor EcoEnchant
+
+description: Massively increases damage dealt.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: veryspecial
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - sharpness
+  - smite
+  - bane_of_arthropods
+  - defusion
+  - butchering
+  - ender_slayer
+  disabled-in-worlds: []
+  maximum-level: 8
+  targets:
+  - sword
+name: 激光剑
+config:
+  base-damage: 10
+  multiplier: 0.5
+  disable-on-players: false
+  decrease-if-cooldown: true
+

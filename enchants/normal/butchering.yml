@@ -1,0 +1,32 @@
+# 
+# Butchering EcoEnchant
+
+description: Increases damage against passive mobs.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: common
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - sharpness
+  - bane_of_arthropods
+  - smite
+  - defusion
+  - razor
+  - ender_slayer
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - sword
+  - axe
+name: 屠夫
+config:
+  bonus-per-level: 2.5
+

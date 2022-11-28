@@ -1,0 +1,25 @@
+# 
+# Frenzy EcoEnchant
+
+description: Gives strength after killing an entity.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - sword
+name: 战神
+config:
+  seconds-per-level: 1.5
+

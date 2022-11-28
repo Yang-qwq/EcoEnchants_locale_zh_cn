@@ -1,0 +1,27 @@
+# 
+# Curse of Decay EcoEnchant
+
+description: Automatically damages items when not held.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - mending
+  - repairing
+  disabled-in-worlds: []
+  targets:
+  - all
+name: 腐烂诅咒
+config:
+  repeat-ticks: 100
+  multiplier: 1
+

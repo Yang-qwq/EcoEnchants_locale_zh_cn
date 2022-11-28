@@ -1,0 +1,29 @@
+# 
+# Tripleshot EcoEnchant
+
+description: Shoots 3 arrows.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - succession
+  - pentashot
+  - buckshot
+  disabled-in-worlds: []
+  maximum-level: 1
+  targets:
+  - bow
+name: 三重射击
+config:
+  angle: 11
+  chance-per-level: 100
+

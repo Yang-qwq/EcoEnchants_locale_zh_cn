@@ -1,0 +1,26 @@
+# 
+# Abrasion EcoEnchant
+
+description: Damages your opponents armor.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - sword
+  - axe
+name: 磨蚀
+config:
+  allow-not-fully-charged: false
+

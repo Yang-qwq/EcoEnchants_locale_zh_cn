@@ -1,0 +1,28 @@
+# 
+# Curse of Misfortune EcoEnchant
+
+description: Chance for blocks to not drop items.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - fortune
+  disabled-in-worlds: []
+  targets:
+  - pickaxe
+  - axe
+  - hoe
+  - shovel
+name: 霉运诅咒
+config:
+  chance-per-level: 15
+

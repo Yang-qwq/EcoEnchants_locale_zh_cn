@@ -1,0 +1,27 @@
+# 
+# Water Aspect EcoEnchant
+
+description: Increases damage dealt against fiery mobs.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - fire_aspect
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - sword
+  - axe
+name: 淬火
+config:
+  multiplier: 0.2
+

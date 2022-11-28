@@ -1,0 +1,27 @@
+# 
+# Instability EcoEnchant
+
+description: Explosive arrows.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - bow
+  - crossbow
+name: 爆炸弓
+config:
+  fire: false
+  break-blocks: false
+

@@ -1,0 +1,28 @@
+# 
+# Leeching EcoEnchant
+
+description: Heals a portion of damage dealt.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - life_steal
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - sword
+  - axe
+name: 嗜血
+config:
+  allow-not-fully-charged: false
+  health-per-level: 1
+

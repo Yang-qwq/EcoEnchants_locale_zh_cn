@@ -1,0 +1,25 @@
+# 
+# Stamina EcoEnchant
+
+description: Decreases hunger loss while sprinting.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - boots
+name: 耐力
+config:
+  chance-per-level: 10
+

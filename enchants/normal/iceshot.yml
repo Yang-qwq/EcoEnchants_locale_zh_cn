@@ -1,0 +1,27 @@
+# 
+# Ice Shot EcoEnchant
+
+description: Chance of freezing your opponent.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - flame
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - bow
+  - crossbow
+name: 冰矢
+config:
+  chance-per-level: 3
+

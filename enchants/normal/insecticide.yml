@@ -1,0 +1,30 @@
+# 
+# Insecticide EcoEnchant
+
+description: Increases damage against spiders.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: common
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - power
+  - force
+  - revenant
+  - slaughter
+  - settle
+  disabled-in-worlds: []
+  maximum-level: 5
+  targets:
+  - bow
+name: 杀虫剂
+config:
+  multiplier: 0.4
+

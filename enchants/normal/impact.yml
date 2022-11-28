@@ -1,0 +1,26 @@
+# 
+# Impact EcoEnchant
+
+description: Small chance to deal extreme damage.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - trident
+name: 猛击
+config:
+  damage-multiplier: 3
+  chance-per-level: 0.5
+

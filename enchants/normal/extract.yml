@@ -1,0 +1,25 @@
+# 
+# Extract EcoEnchant
+
+description: Heals a portion of damage dealt.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - trident
+name: 汲取
+config:
+  health-per-level: 1
+

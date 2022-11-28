@@ -1,0 +1,25 @@
+# 
+# Diverse EcoEnchant
+
+description: Increases damage dealt against players holding swords.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - axe
+name: 破势
+config:
+  multiplier: 0.05
+

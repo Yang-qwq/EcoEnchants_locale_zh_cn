@@ -1,0 +1,28 @@
+# 
+# Wound EcoEnchant
+
+description: Causes your opponent to bleed, damaging them repeatedly.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 7
+  targets:
+  - bow
+  - crossbow
+name: 创伤
+config:
+  bleed-damage: 1
+  chance-per-level: 3
+  amount-per-level: 1
+

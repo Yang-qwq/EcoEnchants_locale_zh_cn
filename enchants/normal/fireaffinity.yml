@@ -1,0 +1,26 @@
+# 
+# Fire Affinity EcoEnchant
+
+description: Increases damage dealt when on fire.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - water_affinity
+  disabled-in-worlds: []
+  maximum-level: 7
+  targets:
+  - sword
+name: 火上浇油
+config:
+  multiplier: 0.05
+

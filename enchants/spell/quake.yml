@@ -1,0 +1,29 @@
+# 
+# Quake EcoEnchant
+
+description: Damages all nearby entities
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - sword
+name: 霸气
+config:
+  not-while-sneaking: false
+  cooldown: 20
+  activation-sound: ENTITY_ENDER_DRAGON_GROWL
+  damage-per-level: 3
+  radius-per-level: 2
+

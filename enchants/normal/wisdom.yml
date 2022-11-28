@@ -1,0 +1,34 @@
+# 
+# Wisdom EcoEnchant
+
+description: Increases dropped experience.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: uncommon
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - splash
+  - intellect
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - sword
+  - axe
+  - pickaxe
+  - shovel
+  - hoe
+  - bow
+  - crossbow
+  - trident
+name: 经验
+config:
+  bonus-per-point: 0.2
+

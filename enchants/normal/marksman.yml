@@ -1,0 +1,25 @@
+# 
+# Marksman EcoEnchant
+
+description: Removes arrow drop.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - bow
+  - crossbow
+name: 小丑之箭
+config:
+  remove-arrow-after-ticks: 120
+

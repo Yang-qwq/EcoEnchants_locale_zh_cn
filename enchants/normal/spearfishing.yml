@@ -1,0 +1,30 @@
+# 
+# Spearfishing EcoEnchant
+
+description: Chance of dropping fish when tridenting water.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - trident
+name: 鱼叉
+config:
+  chance-per-level: 4
+  drops:
+  - cod
+  - salmon
+  - pufferfish
+  - tropical_fish
+

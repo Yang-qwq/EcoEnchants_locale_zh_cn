@@ -1,0 +1,24 @@
+#
+# Electroshock EcoEnchant
+#
+
+description: Chance to strike lightning on your attacker.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  maximum-level: 3
+  targets:
+  - shield
+name: 高压
+config:
+  damage: 4
+  chance-per-level: 5
+  local-lightning-sound: false
+

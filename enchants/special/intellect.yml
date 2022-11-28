@@ -1,0 +1,34 @@
+# 
+# Intellect EcoEnchant
+
+description: Massively increases dropped experience.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - splash
+  - wisdom
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - bow
+  - crossbow
+  - trident
+  - pickaxe
+  - axe
+  - shovel
+  - hoe
+  - sword
+name: 智慧之泉
+config:
+  bonus-per-point: 1.2
+

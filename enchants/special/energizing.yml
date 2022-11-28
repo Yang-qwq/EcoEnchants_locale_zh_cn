@@ -1,0 +1,29 @@
+# 
+# Energizing EcoEnchant
+
+description: Receive a short burst of haste after breaking a block.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - pickaxe
+  - axe
+  - shovel
+  - hoe
+name: 提神
+config:
+  ticks-per-level: 8
+  initial-level: 2
+

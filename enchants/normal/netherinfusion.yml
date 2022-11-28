@@ -1,0 +1,26 @@
+# 
+# Nether Infusion EcoEnchant
+
+description: Increases damage dealt in the nether.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - end_infusion
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - sword
+name: 下界独裁者
+config:
+  multiplier: 0.02
+

@@ -1,0 +1,32 @@
+# 
+# Preservation EcoEnchant
+
+description: Massively reduces incoming damage.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - protection
+  - fire_protection
+  - projectile_protection
+  - blast_protection
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 终极硬化
+config:
+  percent-less-per-level: 5
+

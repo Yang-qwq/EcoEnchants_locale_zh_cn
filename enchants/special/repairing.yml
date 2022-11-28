@@ -1,0 +1,28 @@
+# 
+# Repairing EcoEnchant
+
+description: Automatically repairs items when not held.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: veryspecial
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - mending
+  - decay_curse
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - all
+name: 自我修复
+config:
+  repeat-ticks: 100
+  multiplier: 1
+

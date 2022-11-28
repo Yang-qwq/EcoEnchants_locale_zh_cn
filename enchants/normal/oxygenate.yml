@@ -1,0 +1,28 @@
+# 
+# Oxygenate EcoEnchant
+
+description: Gain oxygen when breaking blocks underwater.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 8
+  targets:
+  - pickaxe
+  - axe
+  - shovel
+  - hoe
+name: 制氧机
+config:
+  oxygen-per-level: 8
+

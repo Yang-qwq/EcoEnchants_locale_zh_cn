@@ -1,0 +1,29 @@
+# 
+# Curse of Calling EcoEnchant
+
+description: Angers all nearby mobs.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: false
+  conflicts:
+  - mending
+  disabled-in-worlds: []
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 仇恶诅咒
+config:
+  distance: 20
+  repeat-ticks: 20
+

@@ -1,0 +1,28 @@
+# 
+# Zeus EcoEnchant
+
+description: Chance to strike lightning on your opponent.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - bow
+  - crossbow
+name: 宙斯
+config:
+  chance-per-level: 1
+  lightning-damage: 2.5
+  local-lightning-sound: false
+

@@ -1,0 +1,27 @@
+# 
+# Cleave EcoEnchant
+
+description: Damage all entities around attacked entity.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - carve
+  disabled-in-worlds: []
+  maximum-level: 8
+  targets:
+  - axe
+name: 横劈
+config:
+  damage-percentage-per-level: 2.5
+  radius-per-level: 0.5
+

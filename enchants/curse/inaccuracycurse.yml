@@ -1,0 +1,24 @@
+# 
+# Curse of Inaccuracy EcoEnchant
+
+description: Arrows fire incorrectly.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  targets:
+  - bow
+name: 失误诅咒
+config:
+  spread: 0.2
+

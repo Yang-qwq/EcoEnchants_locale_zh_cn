@@ -1,0 +1,26 @@
+# 
+# Diurnal EcoEnchant
+
+description: Increases damage dealt at daytime.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - nocturnal
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - sword
+name: 光辉祝福
+config:
+  multiplier: 0.02
+

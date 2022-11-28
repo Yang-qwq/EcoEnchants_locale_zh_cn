@@ -1,0 +1,25 @@
+# 
+# Rapid EcoEnchant
+
+description: Increases bow pull speed.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: uncommon
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - bow
+name: 苍劲
+config:
+  percent-faster-per-level: 16
+

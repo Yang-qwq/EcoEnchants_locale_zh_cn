@@ -1,0 +1,34 @@
+# 
+# Instantaneous EcoEnchant
+
+description: Chance of instantly breaking blocks.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: rare
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 7
+  targets:
+  - pickaxe
+  - axe
+  - shovel
+  - hoe
+name: 摧毁
+config:
+  blacklisted-blocks:
+  - BEDROCK
+  - OBSIDIAN
+  - END_PORTAL
+  - END_PORTAL_GATE
+  - NETHER_PORTAL
+  chance-per-level: 3
+

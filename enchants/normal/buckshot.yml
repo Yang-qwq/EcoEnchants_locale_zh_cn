@@ -1,0 +1,29 @@
+# 
+# Buckshot EcoEnchant
+
+description: Shoots multiple arrows spread out.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: legendary
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - succession
+  - pentashot
+  - tripleshot
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - bow
+name: 散射
+config:
+  spread-per-level: 0.2
+  amount-per-level: 3
+

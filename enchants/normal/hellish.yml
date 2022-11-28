@@ -1,0 +1,26 @@
+# 
+# Hellish EcoEnchant
+
+description: Increases damage dealt in the nether.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - void_affinity
+  disabled-in-worlds: []
+  maximum-level: 6
+  targets:
+  - trident
+name: 炼狱
+config:
+  multiplier: 0.02
+

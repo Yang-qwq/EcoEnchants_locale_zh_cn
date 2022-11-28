@@ -1,0 +1,26 @@
+# 
+# Confusion EcoEnchant
+
+description: Chance to shuffle your opponents hotbar.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: special
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 4
+  targets:
+  - sword
+name: 迷惑
+config:
+  chance-per-level: 2
+  allow-not-fully-charged: false
+

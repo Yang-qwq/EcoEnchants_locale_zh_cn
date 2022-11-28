@@ -1,0 +1,29 @@
+# 
+# Thrive EcoEnchant
+
+description: Increases maximum health.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts:
+  - prosperity
+  disabled-in-worlds: []
+  maximum-level: 2
+  targets:
+  - helmet
+  - chestplate
+  - leggings
+  - boots
+name: 茁壮
+config:
+  health-per-point: 1
+

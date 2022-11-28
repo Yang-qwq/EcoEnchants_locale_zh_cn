@@ -1,0 +1,26 @@
+# 
+# Disable EcoEnchant
+
+description: Chance of giving your opponent extreme mining fatigue.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: true
+  rarity: epic
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: true
+  conflicts: []
+  disabled-in-worlds: []
+  maximum-level: 3
+  targets:
+  - axe
+name: 沉默
+config:
+  allow-not-fully-charged: false
+  chance-per-level: 2
+

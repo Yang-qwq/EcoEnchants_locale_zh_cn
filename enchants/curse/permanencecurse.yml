@@ -1,0 +1,23 @@
+# 
+# Curse of Permanence EcoEnchant
+
+general-config:
+  requirements:
+    not-met-lore: []
+    list: []
+  flags: []
+  grindstoneable: false
+  conflicts:
+  - mending
+  disabled-in-worlds: []
+  targets:
+  - all
+name: 永恒诅咒
+description: Prevents item from being modified in an anvil.
+enabled: true
+obtaining:
+  villager: true
+  loot: true
+  table: false
+  rarity: legendary
+
