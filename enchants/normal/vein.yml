@@ -21,7 +21,8 @@ general-config:
   maximum-level: 5
   targets:
   - pickaxe
-name: 连锁采矿
+  - axe
+name: 连锁挖掘
 config:
   blocks-per-level: 8
   whitelisted-blocks:
@@ -32,9 +33,20 @@ config:
   - lapis_ore
   - diamond_ore
   - redstone_ore
+  - deepslate_coal_ore
+  - deepslate_iron_ore
+  - deepslate_gold_ore
+  - deepslate_lapis_ore
+  - deepslate_diamond_ore
+  - deepslate_redstone_ore
   - nether_quartz_ore
   - gilded_blackstone
   - nether_gold_ore
   - glowstone
+  - oak_log
+  - birch_log
+  - jungle_log
+  - acacia_log
+  - dark_oak_log
   disable-on-sneak: true
 
