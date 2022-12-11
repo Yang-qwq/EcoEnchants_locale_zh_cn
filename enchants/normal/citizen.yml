@@ -2,7 +2,7 @@
 # Citizen EcoEnchant
 #
 
-name: "Citizen"
+name: "村民守护者"
 description: Prevent you from injuring villagers.
 enabled: true
 
