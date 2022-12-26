@@ -2,7 +2,7 @@
 # Wax Artifact EcoEnchant
 #
 
-name: "Wax Artifact"
+name: "蜡烛粒子"
 description: Creates wax particles.
 enabled: true
 
