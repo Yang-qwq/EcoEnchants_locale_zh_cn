@@ -2,8 +2,8 @@
 # Firestorm EcoEnchant
 #
 
-name: "Firestorm"
-description: Spawns blazes to attack your target.
+name: "风暴"
+description: 生成一团火焰攻击你的目标
 enabled: true
 
 obtaining:

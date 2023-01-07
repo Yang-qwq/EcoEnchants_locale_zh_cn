@@ -2,8 +2,8 @@
 # Dousing EcoEnchant
 #
 
-name: "Dousing"
-description: '&a%value%%&r chance to put out fire on block.'
+name: "泡水"
+description: '&a%value%%&r 的几率熄灭方块上的火焰'
 enabled: true
 
 obtaining:

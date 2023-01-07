@@ -2,8 +2,8 @@
 # Spark Artifact EcoEnchant
 #
 
-name: "Spark Artifact"
-description: Creates spark particles.
+name: "火花粒子"
+description: 产生火花粒子
 enabled: true
 
 obtaining:
