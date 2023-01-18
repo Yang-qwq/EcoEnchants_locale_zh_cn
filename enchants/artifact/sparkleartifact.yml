@@ -1,7 +1,7 @@
 # 
 # Sparkle Artifact EcoEnchant
 
-description: Creates firework particles.
+description: 创建烟花粒子。
 enabled: true
 obtaining:
   villager: true
