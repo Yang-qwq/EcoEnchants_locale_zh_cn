@@ -2,8 +2,8 @@
 # Anger Artifact EcoEnchant
 #
 
-name: "Anger Artifact"
-description: Creates angry villager particles.
+name: "暴怒村民"
+description: 创建暴怒村民粒子
 enabled: true
 
 obtaining:
