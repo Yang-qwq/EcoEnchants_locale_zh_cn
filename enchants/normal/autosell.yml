@@ -2,8 +2,8 @@
 # Autosell EcoEnchant
 #
 
-name: "Autosell"
-description: Drops are instantly sold to the shop
+name: "自动出售"
+description: "掉落的物品会自动出售给商店"
 enabled: true
 
 obtaining:
@@ -13,15 +13,15 @@ obtaining:
   rarity: legendary
 
 general-config:
-  flags: [ ]
+  flags: []
   targets:
     - pickaxe
     - axe
   grindstoneable: true
-  disabled-in-worlds: [ ]
+  disabled-in-worlds: []
   requirements:
-    list: [ ]
-    not-met-lore: [ ]
+    list: []
+    not-met-lore: []
   conflicts:
     - silk_touch
 

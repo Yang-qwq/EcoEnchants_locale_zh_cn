@@ -1,7 +1,7 @@
-# 
+#
 # Clouds Artifact EcoEnchant
 
-description: Creates cloud particles.
+description: "创建云朵粒子"
 enabled: true
 obtaining:
   villager: true
@@ -17,27 +17,26 @@ general-config:
   conflicts: []
   disabled-in-worlds: []
   targets:
-  - pickaxe
-  - sword
-  - axe
-  - elytra
-  - bow
-  - crossbow
-  - trident
+    - pickaxe
+    - sword
+    - axe
+    - elytra
+    - bow
+    - crossbow
+    - trident
 name: 云朵粒子
 config:
   amount: 10
   y-delta: 0.07
   on-blocks:
-  - diamond_ore
-  - gold_ore
-  - lapis_ore
-  - redstone_ore
-  - iron_ore
-  - obsidian
-  - ancient_debris
+    - diamond_ore
+    - gold_ore
+    - lapis_ore
+    - redstone_ore
+    - iron_ore
+    - obsidian
+    - ancient_debris
   use-double-helix: false
   radius: 1
   radius-multiplier: 5
   particle-tick-delay: 2
-
