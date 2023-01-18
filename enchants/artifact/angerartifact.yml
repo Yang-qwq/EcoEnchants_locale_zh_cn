@@ -2,8 +2,8 @@
 # Anger Artifact EcoEnchant
 #
 
-name: "暴怒村民"
-description: 创建暴怒村民粒子
+name: "生气粒子"
+description: "生成村民生气粒子"
 enabled: true
 
 obtaining:
@@ -23,11 +23,11 @@ general-config:
     - crossbow
     - trident
   grindstoneable: true
-  disabled-in-worlds: [ ]
+  disabled-in-worlds: []
   requirements:
     list: []
     not-met-lore: []
-  conflicts: [ ]
+  conflicts: []
 
 config:
   # For Attack
