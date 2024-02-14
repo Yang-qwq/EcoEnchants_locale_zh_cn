@@ -1,0 +1,28 @@
+display-name: "Wisdom"
+description: "&rIncreases dropped experience by &a%placeholder%%"
+placeholder: "100 + %level% * 20"
+type: normal
+
+targets:
+  - sword
+  - axe
+  - pickaxe
+  - shovel
+  - hoe
+  - bow
+  - crossbow
+  - trident
+conflicts: [ ]
+rarity: uncommon
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: xp_multiplier
+    args:
+      multiplier: "1.0 + (%level% * 0.2)"
+
+conditions: [ ]

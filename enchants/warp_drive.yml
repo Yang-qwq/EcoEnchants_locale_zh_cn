@@ -1,0 +1,32 @@
+display-name: "Warp Drive"
+description: "Hitting your opponent with an arrow teleports you to them"
+placeholder: "%level%"
+type: special
+
+targets:
+  - bow
+conflicts: [ ]
+rarity: veryspecial
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: teleport
+    triggers:
+      - bow_attack
+
+  - id: play_sound
+    args:
+      sound: entity_enderman_teleport
+      pitch: 1.2
+      volume: 2
+    triggers:
+      - bow_attack
+
+conditions: [ ]
+
+mutators:
+  - id: location_to_victim

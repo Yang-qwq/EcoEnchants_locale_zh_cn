@@ -1,0 +1,20 @@
+display-name: "Telekinesis"
+description: "Drops and experience go directly into your inventory"
+type: normal
+
+targets:
+  - pickaxe
+  - sword
+  - axe
+conflicts: [ ]
+rarity: common
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: telekinesis
+
+conditions: [ ]

@@ -1,0 +1,27 @@
+display-name: "Arcane Defence"
+description: "Gives a &a%placeholder%%&r chance to ignore potion damage"
+placeholder: "%level% * 4"
+type: normal
+
+targets:
+  - armor
+conflicts: [ ]
+rarity: epic
+max-level: 5
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: cancel_event
+    args:
+      chance: "%level% * 4"
+    triggers:
+      - take_damage
+    filters:
+      damage_cause:
+        - poison
+        - magic
+
+conditions: [ ]
