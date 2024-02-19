@@ -1,5 +1,5 @@
-display-name: "Stamina"
-description: "Decreases sprinting hunger loss by &a%placeholder%%"
+display-name: "耐力"
+description: "减少奔跑时的饥饿条流失&a%placeholder%%"
 placeholder: "%level% * 20"
 type: normal
 

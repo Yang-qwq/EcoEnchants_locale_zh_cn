@@ -1,5 +1,5 @@
-display-name: "Lumberjack"
-description: "Chop down up to &a%placeholder%&r blocks of a tree at once"
+display-name: "伐木工"
+description: "一次砍倒最多&a%placeholder%&r块树木"
 placeholder: "4 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "Fortitude"
-description: "Gives a &a%placeholder%%&r bonus to damage dealt"
+display-name: "坚韧"
+description: "提供&a%placeholder%%&r的额外伤害加成"
 placeholder: "%level% * 2"
 type: normal
 

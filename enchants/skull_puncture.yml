@@ -1,5 +1,5 @@
-display-name: "Skull Puncture"
-description: "Increases headshot damage by &a%placeholder%%"
+display-name: "狙击手"
+description: "增加&a%placeholder%%&r的爆头伤害"
 placeholder: "10 * %level%"
 type: normal
 

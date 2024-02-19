@@ -1,5 +1,5 @@
-display-name: "Feather Step"
-description: "Prevents trampling crops by jumping on them"
+display-name: "轻功"
+description: "跳跃时不会踩踏作物"
 type: normal
 
 targets:

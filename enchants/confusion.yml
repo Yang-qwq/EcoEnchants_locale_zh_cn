@@ -1,5 +1,5 @@
-display-name: "Confusion"
-description: "Gives a &a%placeholder%% &rchance to shuffle your opponents hotbar"
+display-name: "混乱"
+description: "有&a%placeholder%% &r的几率打乱你对手的快捷栏"
 placeholder: "2 * %level%"
 type: special
 

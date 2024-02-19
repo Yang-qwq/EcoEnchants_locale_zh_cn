@@ -1,5 +1,5 @@
-display-name: "Adventurer"
-description: "Gives a &a%placeholder%%&r boost to Adventurer experience"
+display-name: "冒险家"
+description: "提供&a%placeholder%%&r的冒险家经验加成"
 placeholder: "2 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "Veinminer"
-description: "Mine up to &a%placeholder%&r blocks in veins at once"
+display-name: "连锁"
+description: "一次挖掘多达&a%placeholder%&r个方块的矿脉"
 placeholder: "2 + 3 * %level%"
 type: normal
 

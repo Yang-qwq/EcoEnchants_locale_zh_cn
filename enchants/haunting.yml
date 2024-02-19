@@ -1,5 +1,5 @@
-display-name: "Haunting"
-description: "Dying spawns a harming cloud for &a%placeholder%&r seconds"
+display-name: "瘟疫诅咒"
+description: "死亡后释放一个伤害云，持续&a%placeholder%&r秒"
 placeholder: "1 + %level%"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "Bleed"
-description: "Gives a &a%placeholder%%&r chance to cause your opponent to bleed, damaging them repeatedly"
+display-name: "流血"
+description: "有&a%placeholder%%&r的几率使你的对手流血，持续造成伤害"
 placeholder: "1.5 * %level%"
 type: normal
 

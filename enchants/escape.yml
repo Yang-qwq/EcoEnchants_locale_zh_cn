@@ -1,5 +1,5 @@
-display-name: "Escape"
-description: "Gain a short burst of speed &a%placeholder%%&r after taking damage"
+display-name: "逃逸"
+description: "在受到伤害后获得&a%placeholder%%&r秒的短暂加速"
 placeholder: "%level%"
 type: normal
 

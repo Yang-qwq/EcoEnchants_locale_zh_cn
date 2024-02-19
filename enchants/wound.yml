@@ -1,5 +1,5 @@
-display-name: "Wound"
-description: "Gives a &a%chance%%&r chance to give your opponent &a%damage% &rdamage for &a%duration%&r seconds"
+display-name: "创伤"
+description: "攻击时有&a%chance%%&r的几率给予对手&a%damage% &r伤害，持续&a%duration%&r秒"
 placeholders:
   chance: "%level% * 3"
   duration: "0.75 * (%level% + 2)"

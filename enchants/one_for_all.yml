@@ -1,5 +1,5 @@
-display-name: "One for All"
-description: "Increases damage by &a%placeholder%%&r but conflicts with all other enchantments"
+display-name: "众志成城"
+description: "增加&a%placeholder%%&r的伤害，但与所有其他附魔互斥"
 placeholder: "500"
 type: special
 

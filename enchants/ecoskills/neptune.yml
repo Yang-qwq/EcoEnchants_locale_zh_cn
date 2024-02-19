@@ -1,5 +1,5 @@
-display-name: "Neptune"
-description: "Gives &a+%crit_damage%&r to %ecoskills_crit_damage_name%&r but reduces %ecoskills_crit_chance_name%&r by &c%crit_chance%%"
+display-name: "海王星"
+description: "提高&a+%crit_damage%&r的%ecoskills_crit_damage_name%，但降低%ecoskills_crit_chance_name% &c%crit_chance%%"
 placeholders:
   crit_damage: "20 + 10 * %level%"
   crit_chance: "40 - 5 * %level%"

@@ -1,5 +1,5 @@
-display-name: "Transmission"
-description: "Teleports you &a%placeholder%&8 blocks forward"
+display-name: "向位传送"
+description: "将你向前传送&a%placeholder%&8个方块距离"
 placeholder: "3 + %level% * 2"
 type: spell
 

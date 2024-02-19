@@ -1,5 +1,5 @@
-display-name: "Sparks"
-description: "Hooking onto enemies during storms gives a &a%chance%%&r chance to strike lightning dealing &a%damage%&r damage"
+display-name: "避雷针"
+description: "在暴风雨期间钩住敌人有&a%chance%%&r的几率触发闪电打击，造成&a%damage%&r的伤害"
 placeholders:
   damage: "1 + %level%"
   chance: "25 + 5 * %level%"

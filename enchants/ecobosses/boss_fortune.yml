@@ -1,5 +1,5 @@
-display-name: "Boss Fortune"
-description: "Gives a &a%placeholder%%&r bonus to boss drop chances"
+display-name: "Boss抢夺"
+description: "提供&a%placeholder%%&r的Boss掉落几率加成"
 placeholder: "5 * %level%"
 type: normal
 

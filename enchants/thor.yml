@@ -1,5 +1,5 @@
-display-name: "Thor"
-description: "Gives a &a%chance%%&r chance to strike &a%bolts%&r lightning bolts on your opponent"
+display-name: "宙斯之力"
+description: "有&a%chance%%&r的几率在攻击对手时触发&a%bolts%&r道闪电"
 placeholders:
   chance: "%level%"
   bolts: "ceil(%level% / 2)"

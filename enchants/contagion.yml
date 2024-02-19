@@ -1,5 +1,5 @@
-display-name: "Contagion"
-description: "Gives a &a%placeholder%%&r chance to spawn a cloud of poison around where your trident lands"
+display-name: "瘟疫"
+description: "有&a%placeholder%%&r的几率在三叉戟落地处生成毒云"
 placeholder: "5 * %level%"
 type: normal
 

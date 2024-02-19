@@ -1,5 +1,5 @@
-display-name: "Arcane Defence"
-description: "Gives a &a%placeholder%%&r chance to ignore potion damage"
+display-name: "奥术防御"
+description: "有&a%placeholder%%&r的几率忽略药水伤害"
 placeholder: "%level% * 4"
 type: normal
 

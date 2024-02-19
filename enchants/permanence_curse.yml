@@ -1,5 +1,5 @@
-display-name: "Curse of Permanence"
-description: "Prevents modifying this item in an anvil"
+display-name: "永恒诅咒"
+description: "阻止在铁砧上修改此物品"
 type: curse
 
 targets:

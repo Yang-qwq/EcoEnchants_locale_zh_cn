@@ -1,5 +1,5 @@
-display-name: "Adrenaline"
-description: "Gain strength for &a%placeholder%&r seconds when blocking hits"
+display-name: "肾上腺素"
+description: "在阻挡攻击时，获得&a%placeholder%&r秒的力量加成"
 placeholder: "1 + %level% / 2"
 type: normal
 

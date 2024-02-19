@@ -1,5 +1,5 @@
-display-name: "Infernal Touch"
-description: "Automatically smelts mined blocks"
+display-name: "自动冶炼"
+description: "自动将挖掘的方块熔炼成对应的物品"
 type: normal
 
 targets:

@@ -1,5 +1,5 @@
-display-name: "Excavation"
-description: "Digs &a%placeholder%&r extra blocks"
+display-name: "麒麟臂"
+description: "额外挖掘&a%placeholder%&r个方块"
 placeholder: "%level%"
 type: normal
 

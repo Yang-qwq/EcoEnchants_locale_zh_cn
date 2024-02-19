@@ -1,5 +1,5 @@
-display-name: "Dexterity"
-description: "Increases attack speed by &a%placeholder%%"
+display-name: "轻巧"
+description: "增加&a%placeholder%%&r的攻击速度"
 placeholder: "%level% * 10"
 type: normal
 
