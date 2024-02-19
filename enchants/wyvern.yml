@@ -1,5 +1,5 @@
-display-name: "Wyvern"
-description: "Gives a &a%placeholder%%&r bonus to melee damage"
+display-name: "龙之后裔"
+description: "提供&a%placeholder%%&r的近战伤害加成"
 placeholder: "10 * %level%"
 type: normal
 

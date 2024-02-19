@@ -1,5 +1,5 @@
-display-name: "Lifesteal"
-description: "Heals &a%placeholder%%&r of damage dealt"
+display-name: "生命汲取"
+description: "对敌人造成伤害时，治疗自身伤害数值的&a%placeholder%%&r"
 placeholder: "%level% * 10"
 type: normal
 

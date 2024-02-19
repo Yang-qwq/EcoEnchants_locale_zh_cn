@@ -1,5 +1,5 @@
-display-name: "Green Thumb"
-description: "Gives a &a%placeholder%%&r boost to Farming experience"
+display-name: "园艺能手"
+description: "提供&a%placeholder%%&r的种植经验加成"
 placeholder: "2 + 4 * %level%"
 type: normal
 

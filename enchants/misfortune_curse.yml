@@ -1,5 +1,5 @@
-display-name: "Curse of Misfortune"
-description: "Gives a &a%placeholder%% &rchance for blocks to not drop items"
+display-name: "倒霉诅咒"
+description: "有&a%placeholder%% &r的几率方块不掉落物品"
 placeholder: "15 * %level%"
 type: curse
 

@@ -1,5 +1,5 @@
-display-name: "Soul Storm"
-description: "Gives a &a%bonus%%&r bonus to attack damage for &a%seconds%&r seconds at the expense of &a3&r hearts"
+display-name: "灵魂风暴"
+description: "牺牲&a3&r颗心，在&a%seconds%&r秒内提供&a%bonus%%&r的攻击伤害加成"
 placeholders:
   bonus: "150 + 50 * %level%"
   seconds: "15 + 5 * %level%"

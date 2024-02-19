@@ -1,5 +1,5 @@
-display-name: "Snipe"
-description: "Arrows deal &a%damage%%&r more damage for each &a%blocks%&r blocks travelled"
+display-name: "空气动力学"
+description: "每飞行&a%blocks%&r个方块，箭矢造成&a%damage%%&r额外伤害"
 placeholders:
   damage: "1 * %level%"
   blocks: "11 - ceil(%level% / 2)"

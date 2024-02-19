@@ -1,5 +1,5 @@
-display-name: "First Strike"
-description: "Deal &a%placeholder%% &rmore damage against victims on max health"
+display-name: "先发制人"
+description: "对处于最大生命值状态的目标造成额外&a%placeholder%% &r的伤害"
 placeholder: "30 + 20 * %level%"
 type: normal
 

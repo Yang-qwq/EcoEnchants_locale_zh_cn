@@ -1,5 +1,5 @@
-display-name: "Caffeinated"
-description: "Gives a &a%placeholder%%&r bonus to attack speed while sprinting"
+display-name: "疾袭"
+description: "在奔跑时，攻击速度额外提升&a%placeholder%%&r"
 placeholder: "5 * %level%"
 type: normal
 

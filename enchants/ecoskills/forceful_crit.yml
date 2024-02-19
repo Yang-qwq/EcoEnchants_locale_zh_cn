@@ -1,5 +1,5 @@
-display-name: "Forceful Crit"
-description: "Gives &a+%placeholder%&r %ecoskills_crit_damage_name%"
+display-name: "强力暴击"
+description: "提供&a+%placeholder%&r的%ecoskills_crit_damage_name%"
 placeholder: "3 + 2 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "Flashbang"
-description: "Gives a &a%placeholder%%&r chance of blinding your opponent"
+display-name: "闪光弹"
+description: "有&a%placeholder%%&r的几率使对手失明"
 placeholder: "%level%"
 type: normal
 

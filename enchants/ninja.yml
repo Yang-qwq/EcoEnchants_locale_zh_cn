@@ -1,5 +1,5 @@
-display-name: "Ninja"
-description: "Deal &a+%placeholder%&r damage while sneaking"
+display-name: "忍者"
+description: "在潜行状态下造成的伤害增加&a%placeholder%%&r"
 placeholder: "0.5 + %level% * 0.5"
 type: normal
 

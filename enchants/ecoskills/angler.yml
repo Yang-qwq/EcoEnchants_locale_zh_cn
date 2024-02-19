@@ -1,5 +1,5 @@
-display-name: "Angler"
-description: "Gives a &a%placeholder%%&r boost to Fishing experience"
+display-name: "渔夫"
+description: "提供&a%placeholder%%&r的钓鱼经验加成"
 placeholder: "8 * %level%"
 type: normal
 

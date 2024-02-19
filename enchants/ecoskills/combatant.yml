@@ -1,5 +1,5 @@
-display-name: "Combatant"
-description: "Gives a &a%placeholder%%&r boost to Combat experience"
+display-name: "战士"
+description: "提供&a%placeholder%%&r的战斗经验加成"
 placeholder: "10 + 2.5 * %level%"
 type: normal
 

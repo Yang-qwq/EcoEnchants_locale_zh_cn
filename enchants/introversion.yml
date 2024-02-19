@@ -1,5 +1,5 @@
-display-name: "Introversion"
-description: "Gives a &a%placeholder%&r bonus to melee damage against players"
+display-name: "内敛"
+description: "对玩家造成的近战伤害获得额外&a%placeholder%&r加成"
 placeholder: "2.5 * %level%"
 type: normal
 

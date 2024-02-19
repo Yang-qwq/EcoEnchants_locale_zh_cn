@@ -1,5 +1,5 @@
-display-name: "Boss Hunter"
-description: "Deal &a%placeholder%% &rmore damage against bosses"
+display-name: "Boss杀手"
+description: "对Boss生物造成额外&a%placeholder%% &r伤害"
 placeholder: "10 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "Stun"
-description: "Gives a &a%placeholder%%&r chance to stun attacked mobs for &a1&r second"
+display-name: "安眠锤"
+description: "攻击时有&a%placeholder%%&r的几率使被攻击的生物震荡&a1&r秒"
 placeholder: "2.5 + 2.5 * %level%"
 type: normal
 

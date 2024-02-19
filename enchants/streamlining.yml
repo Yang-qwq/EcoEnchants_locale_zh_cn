@@ -1,5 +1,5 @@
-display-name: "Streamlining"
-description: "Gives a &a%placeholder%%&r boost to movement speed"
+display-name: "轻量化"
+description: "提供&a%placeholder%%&r的移动速度加成"
 placeholder: "%level% * 5"
 type: normal
 

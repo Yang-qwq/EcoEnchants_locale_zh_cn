@@ -1,5 +1,5 @@
-display-name: "Curse of Harmlessness"
-description: "Gives a &a%placeholder%% &rchance for attacks to do nothing"
+display-name: "软弱诅咒"
+description: "有&a%placeholder%% &r的几率使攻击无效"
 placeholder: "15 * %level%"
 type: curse
 

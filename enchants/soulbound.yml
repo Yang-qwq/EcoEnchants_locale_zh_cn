@@ -1,5 +1,5 @@
-display-name: "Soulbound"
-description: "Keep this item on death"
+display-name: "灵魂绑定"
+description: "死亡时保留此物品"
 type: special
 
 targets:

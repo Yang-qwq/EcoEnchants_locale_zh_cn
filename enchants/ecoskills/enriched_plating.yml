@@ -1,5 +1,5 @@
-display-name: "Enriched Plating"
-description: "Gives a &a%placeholder%%&r boost to Armory experience"
+display-name: "强化铠甲"
+description: "提供&a%placeholder%%&r的铠甲经验加成"
 placeholder: "3 * %level%"
 type: normal
 

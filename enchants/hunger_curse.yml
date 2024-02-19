@@ -1,5 +1,5 @@
-display-name: "Curse of Hunger"
-description: "Increases hunger loss by &a%placeholder%%"
+display-name: "饥饿诅咒"
+description: "增加&a%placeholder%%&r的饥饿值流失速度"
 placeholder: "50 * %level%"
 type: curse
 

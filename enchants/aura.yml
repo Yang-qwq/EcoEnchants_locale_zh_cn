@@ -1,5 +1,5 @@
-display-name: "Aura"
-description: "Players within &a%radius%&r blocks of you take &a%reduction%%&r less damage"
+display-name: "光环"
+description: "距离你&a%radius%&r格内的玩家受到的伤害减少&a%reduction%%&r"
 placeholders:
   reduction: "%level% * 10"
   radius: "3 + %level% * 2"

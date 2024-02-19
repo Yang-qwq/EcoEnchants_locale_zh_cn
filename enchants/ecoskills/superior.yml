@@ -1,5 +1,5 @@
-display-name: "Superior"
-description: "Gives a &a%placeholder%%&r boost to all stats"
+display-name: "卓越"
+description: "提供&a%placeholder%%&r的所有属性加成"
 placeholder: "%level% * 2"
 type: special
 

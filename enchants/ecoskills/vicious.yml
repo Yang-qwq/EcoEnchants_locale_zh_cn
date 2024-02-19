@@ -1,5 +1,5 @@
-display-name: "Vicious"
-description: "Gives &a+%placeholder%&r %ecoskills_ferocity_name%"
+display-name: "凶残"
+description: "提供&a+%placeholder%&r的%ecoskills_ferocity_name%"
 placeholder: "5 + 5 * %level%"
 type: normal
 

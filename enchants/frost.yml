@@ -1,5 +1,5 @@
-display-name: "Frost"
-description: "Gives a &a%chance%%&r chance to make your opponent feel as if they've been frozen for &a%seconds%&r seconds"
+display-name: "冰霜"
+description: "有&a%chance%%&r的几率让对手感觉好像被冻结了&a%seconds%&r秒"
 placeholders:
   chance: "3 + 2 * %level%"
   seconds: "2 + %level%"
