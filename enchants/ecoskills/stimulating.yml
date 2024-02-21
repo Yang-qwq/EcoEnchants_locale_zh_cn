@@ -1,4 +1,4 @@
-display-name: "刺激"
+display-name: "☆ 潜能激发"
 description: "在&a%seconds%&r秒内，提供&a%bonus%%&r的所有属性加成"
 placeholders:
   bonus: "10 * %level%"

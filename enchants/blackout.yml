@@ -1,5 +1,5 @@
-display-name: "黑暗"
-description: "有%a%chance%%&r的几率使你的对手在&a%seconds%&r秒内被覆盖黑暗"
+display-name: "黑暗降临"
+description: "有&a%chance%%&r的几率使目标在&a%seconds%&r秒内获得黑暗效果"
 placeholders:
   chance: "6 + %level%"
   seconds: "4 + ceil(%level% / 2)"

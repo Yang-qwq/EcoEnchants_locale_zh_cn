@@ -1,5 +1,5 @@
-display-name: "透视"
-description: "在&a%radius%&r个方块距离内，让矿石在墙壁上透过闪光&a%seconds%&r秒"
+display-name: "☆ 透视"
+description: "右键时,在半径为&a%radius%&r个方块内，让矿石获得&a%seconds%&r秒发光效果"
 placeholders:
   seconds: "1 + %level%"
   radius: "3 + 2 * %level%"

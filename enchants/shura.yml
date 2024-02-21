@@ -1,5 +1,5 @@
 display-name: "修罗"
-description: "当生命值低于一半时，对敌人的暴击伤害增加&a%placeholder%%&r"
+description: "当生命值低于50%时，对目标的暴击伤害将增加&a%placeholder%%&r"
 placeholder: "1 + 0.25 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
 display-name: "生生不息"
-description: "作物将自动重新种植"
+description: "农作物将自动重新种植播种"
 type: normal
 
 targets:
@@ -14,6 +14,8 @@ enchantable: true
 
 conditions: [ ]
 
-consume-seeds: true # If seeds should be consumed in replanting
+# 是否在种子重新种植时应该被消耗
+consume-seeds: true 
 
-only-fully-grown: false # If only fully grown crops should be replanted
+# 是否只有完全成熟的作物才应该被重新种植
+only-fully-grown: false 

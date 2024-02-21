@@ -1,5 +1,5 @@
-display-name: "活力"
-description: "将你恢复至最大生命值"
+display-name: "☆ 活力"
+description: "右键时,将你恢复至最大生命值"
 type: spell
 
 targets:

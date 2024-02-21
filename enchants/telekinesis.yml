@@ -1,5 +1,5 @@
 display-name: "物品磁铁"
-description: "物品掉落和经验直接进入你的背包"
+description: "战利品,掉落物和经验直接进入你的背包"
 type: normal
 
 targets:

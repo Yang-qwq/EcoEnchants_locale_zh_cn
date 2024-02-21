@@ -1,5 +1,5 @@
 display-name: "跳跃射击"
-description: "在空中时造成的伤害额外增加&a%placeholder%%&r"
+description: "在空中时,伤害额外增升&a%placeholder%%&r"
 placeholder: "10 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
 display-name: "灵魂绑定"
-description: "死亡时保留此物品"
+description: "死亡时保留该物品"
 type: special
 
 targets:

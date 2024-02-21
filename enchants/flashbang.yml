@@ -1,5 +1,5 @@
 display-name: "闪光弹"
-description: "有&a%placeholder%%&r的几率使对手失明"
+description: "有&a%placeholder%%&r的几率使目标获得失明效果"
 placeholder: "%level%"
 type: normal
 

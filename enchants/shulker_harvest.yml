@@ -1,5 +1,5 @@
 display-name: "潜影抢夺"
-description: "掉落时额外增加&a%placeholder%%&r的潜影壳"
+description: "抢夺潜影壳时,将额外增加&a%placeholder%%&r的掉落几率"
 placeholder: "ceil(((1 / (%level% + 4)) + ((%level% + 3) / 2)) * 100 - 100)"
 type: normal
 

@@ -1,5 +1,5 @@
 display-name: "耐力"
-description: "减少奔跑时的饥饿条流失&a%placeholder%%"
+description: "减少奔跑时的&a%placeholder%%&r的饥饿值消耗"
 placeholder: "%level% * 20"
 type: normal
 

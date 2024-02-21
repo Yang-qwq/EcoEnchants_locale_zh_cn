@@ -1,5 +1,5 @@
-display-name: "爆破艺术"
-description: "在一个&a%placeholder%x%placeholder%&r的区域内挖掘方块"
+display-name: "☆ 爆破艺术"
+description: "右键时,挖掘&a%placeholder%x%placeholder%&r区域的方块"
 placeholder: "1 + %level% * 4"
 type: spell
 

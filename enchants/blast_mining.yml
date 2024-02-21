@@ -1,5 +1,5 @@
 display-name: "爆炸挖掘"
-description: "有&a%placeholder%% &r的几率在一个3x3的区域内进行挖掘"
+description: "有&a%placeholder%%&r的几率挖掘一个3x3的区域"
 placeholder: "5 * %level%"
 type: special
 

@@ -1,5 +1,5 @@
 display-name: "冰霜"
-description: "有&a%chance%%&r的几率让对手感觉好像被冻结了&a%seconds%&r秒"
+description: "有&a%chance%%&r的几率让目标获得&a%seconds%&r秒冻结效果"
 placeholders:
   chance: "3 + 2 * %level%"
   seconds: "2 + %level%"

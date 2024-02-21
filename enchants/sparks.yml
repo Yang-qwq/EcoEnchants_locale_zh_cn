@@ -1,5 +1,5 @@
 display-name: "避雷针"
-description: "在暴风雨期间钩住敌人有&a%chance%%&r的几率触发闪电打击，造成&a%damage%&r的伤害"
+description: "在雷暴天气中,钩中目标有&a%chance%%&r的几率生成&a%damage%&r点伤害的闪电"
 placeholders:
   damage: "1 + %level%"
   chance: "25 + 5 * %level%"

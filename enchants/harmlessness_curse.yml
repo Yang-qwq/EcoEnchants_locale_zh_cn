@@ -1,5 +1,5 @@
 display-name: "软弱诅咒"
-description: "有&a%placeholder%% &r的几率使攻击无效"
+description: "有&a%placeholder%%&r的几率使攻击无效"
 placeholder: "15 * %level%"
 type: curse
 

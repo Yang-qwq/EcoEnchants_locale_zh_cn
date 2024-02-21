@@ -1,19 +1,15 @@
-# Rarity option does not affect vanilla enchantments.
-  # 稀有度选项不会影响基本附魔。
-# The option is there for the display option to sort by rarity.
-  # 该选项仅用于展示选项，以按稀有度排序。
+# 稀有度选项不会影响基本附魔。
+# 该选项仅用于展示选项，以按稀有度排序。
 
 
 protection:
   display-name: "保护"
-  description: "减少&a%placeholder%%&r的受到伤害"
+  description: "减少&a%placeholder%%&r的伤害"
   placeholder: "%level% * 4"
   type: normal
   rarity: common
-  #max-level: 6 # Custom max level to override for the enchantment. Raise it, but lowering it may cause bugs.
-    # 最大等级：6 # 自定义最大等级，用于覆盖原有的附魔等级。可以升高等级，但降低等级可能会导致错误。
-  #conflicts: [] # Custom conflicts to override for the enchantment. Add or remove conflicts as you please.
-    # 冲突项：[] # 自定义冲突项，用于覆盖原有的附魔冲突。可以根据需要添加或删除冲突项。
+# 最大等级：6 # 自定义最大等级，用于覆盖原有的附魔等级。可以升高等级，但降低等级可能会导致错误。
+# 冲突项：[] # 自定义冲突项，用于覆盖原有的附魔冲突。可以根据需要添加或删除冲突项。
 
 fire_protection:
   display-name: "火焰保护"
@@ -33,7 +29,7 @@ feather_falling:
 
 blast_protection:
   display-name: "爆炸保护"
-  description: "减少&a%damage%%&r的爆炸伤害和减少&a%knockback%%&r的爆炸击退效果"
+  description: "减少&a%damage%%&r的爆炸伤害和&a%knockback%%&r的爆炸击退效果"
   placeholders:
     damage: "%level% * 8"
     knockback: "%level% * 15"
@@ -49,7 +45,7 @@ projectile_protection:
 
 respiration:
   display-name: "水下呼吸"
-  description: "延长&a%seconds%&r秒的水下呼吸时间，并有&a%chance%%&r的几率免疫溺水伤害"
+  description: "延长&a%seconds%&r秒的水下呼吸时间,同时有&a%chance%%&r的几率免疫溺水伤害"
   placeholders:
     seconds: "15 * %level%"
     chance: "%level% / (%level% + 1)"
@@ -58,54 +54,54 @@ respiration:
 
 aqua_affinity:
   display-name: "水下速掘"
-  description: "移除水下挖掘的速度惩罚"
+  description: "在水下挖掘时,移除挖掘速度惩罚"
   type: normal
   rarity: rare
 
 thorns:
   display-name: "荆棘"
-  description: "有&a%placeholder%%&r的几率将一部分受到的伤害反射给攻击者"
+  description: "有&a%placeholder%%&r的几率将部分伤害反射给攻击者"
   placeholder: "%level% * 15"
   type: normal
   rarity: epic
 
 depth_strider:
   display-name: "深海探索者"
-  description: "减少&a%placeholder%%&r的水下移动减速"
+  description: "在水下移动时,减少&a%placeholder%%&r的减速惩罚"
   placeholder: "%level% * 33.333333"
   type: normal
   rarity: rare
 
 frost_walker:
   display-name: "冰霜行者"
-  description: "在陆地上行走时将周围&a%placeholder%&r格范围内的水转化为霜冰"
+  description: "在陆地上行走时,将周围&a%placeholder%&r格范围内的水转化为霜冰"
   placeholder: "%level% + 2"
   type: normal
   rarity: rare
 
 binding_curse:
   display-name: "绑定诅咒"
-  description: "物品无法从盔甲槽中取出"
+  description: "该物品无法从盔甲槽中取出"
   type: curse
   rarity: epic
 
 sharpness:
   display-name: "锋利"
-  description: "增加&a%placeholder%&r的近战伤害"
+  description: "额外增加&a%placeholder%&r点近战伤害"
   placeholder: "0.5 * %level% + 1"
   type: normal
   rarity: common
 
 smite:
   display-name: "亡灵杀手"
-  description: "对亡灵生物造成&a%placeholder%&r的额外近战伤害"
+  description: "对亡灵生物额外增加&a%placeholder%&r点伤害"
   placeholder: "2.5 * %level%"
   type: normal
   rarity: uncommon
 
 bane_of_arthropods:
   display-name: "节肢杀手"
-  description: "对节肢动物造成&a%damage%&r的额外近战伤害，并给予最多&a%seconds%&r秒的缓慢 IV 效果"
+  description: "对节肢动物额外增加&a%damage%&r点伤害,并获得&a%seconds%&r秒的缓慢4效果"
   placeholders:
     damage: "2.5 * %level%"
     seconds: "0.5 * %level%"
@@ -114,30 +110,30 @@ bane_of_arthropods:
 
 knockback:
   display-name: "击退"
-  description: "增加剑的&a%placeholder%%&r的攻击击退效果"
+  description: "攻击时,增加&a%placeholder%%&r的击退效果"
   placeholder: "%level% * 85 + 20"
   type: normal
   rarity: uncommon
 
 fire_aspect:
   display-name: "火焰附加"
-  description: "使目标着火&a4&r秒，每次火焰造成&a%placeholder%&r的伤害"
+  description: "使目标着火&a4&r秒,并且每次火焰造成&a%placeholder%&r点伤害"
   placeholder: "(%level% * 4) - 1"
   type: normal
   rarity: rare
 
 looting:
   display-name: "抢夺"
-  description: "增加&a%common%&r的普通掉落几率，并增加&a%rare%%的稀有掉落几率"
+  description: "使普通掉落上限+&a%common%&r,并对少量掉落增加&a%rare%%&r的二次掉落"
   placeholders:
     common: "%level%"
-    rare: "%level%"
+    rare: "%level% / (%level% + 1)"
   type: normal
   rarity: rare
 
 sweeping:
   display-name: "横扫之刃"
-  description: "增加&a%placeholder%%&r的横扫攻击伤害"
+  description: "额外增加&a%placeholder%%&r的横扫攻击伤害"
   placeholder: "%level% / (%level% + 1)"
   type: normal
   rarity: rare
@@ -151,41 +147,43 @@ efficiency:
 
 silk_touch:
   display-name: "精准采集"
-  description: "让被挖掘的方块掉落自身、而非其常规掉落物"
+  description: "被挖掘的方块掉落自身,而非其普通掉落物"
   type: normal
   rarity: epic
 
 unbreaking:
   display-name: "耐久"
-  description: "降低&a%placeholder%x的耐久度消耗"
-  placeholder: "%level% + 1"
+  description: "物品耐久消耗概率为&a%item%%&r,盔甲的耐久消耗概率为&a%armour%%&r"
+  placeholder: 
+    item: "ceil(100 / (%level% + 1))"
+    armour: "ceil(60 + (40 / (%level% + 1)))"
   type: normal
   rarity: uncommon
 
 fortune:
   display-name: "时运"
-  description: "对特定方块掉落增加&a%placeholder%%&r"
+  description: "对特定方块增加&a%placeholder%%&r的掉落物数量"
   placeholder: "ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)"
   type: normal
   rarity: rare
 
 power:
   display-name: "力量"
-  description: "增加&a%placeholder%%&r的箭矢伤害加成"
+  description: "增加&a%placeholder%%&r的伤害加成"
   placeholder: "25 * (%level% + 1)"
   type: normal
   rarity: common
 
 punch:
   display-name: "冲击"
-  description: "增加箭矢击退距离至少&a%placeholder%&r个方块"
+  description: "使箭矢击退距离为&a%placeholder%&r个方块"
   placeholder: "3 * %level%"
   type: normal
   rarity: rare
 
 flame:
   display-name: "火矢"
-  description: "射出的箭矢使目标着火，额外造成&a5&r点火焰伤害"
+  description: "射出的箭矢使目标着火，并且每次火焰造成&a5&r点伤害"
   type: normal
   rarity: rare
 
@@ -197,14 +195,14 @@ infinity:
 
 luck_of_the_sea:
   display-name: "海之眷顾"
-  description: "获取宝藏的概率增加&a%placeholder%%"
+  description: "增加&a%placeholder%%的宝藏概率"
   placeholder: "2 * %level%"
   type: normal
   rarity: rare
 
 lure:
   display-name: "饵钓"
-  description: "减少&a%placeholder%&r秒的钓鱼所需的等待时间"
+  description: "减少&a%placeholder%&r秒的钓鱼等待时间"
   placeholder: "%level% * 5"
   type: normal
   rarity: rare
@@ -217,26 +215,26 @@ loyalty:
 
 impaling:
   display-name: "穿刺"
-  description: "对水中生物造成额外造成&a%placeholder%&r的伤害"
+  description: "对水生生物额外增加&a%placeholder%&r点伤害"
   placeholder: "%level% * 2.5"
   type: normal
   rarity: rare
 
 riptide:
   display-name: "激流"
-  description: "在水中或下雨时，投掷三叉戟可以使玩家快速移动"
+  description: "在水中或下雨时，投掷三叉戟可以快速移动"
   type: normal
   rarity: rare
 
 channeling:
   display-name: "引雷"
-  description: "在雷暴天气时，三叉戟击中目标时产生闪电"
+  description: "在雷暴天气时，击中目标产生闪电"
   type: normal
   rarity: epic
 
 multishot:
   display-name: "多重射击"
-  description: "只消耗一支箭能一次向三个方向射出三支箭"
+  description: "只消耗一支箭可以一次向三个方向射出三支箭"
   type: normal
   rarity: rare
 
@@ -249,7 +247,7 @@ quick_charge:
 
 piercing:
   display-name: "穿透"
-  description: "使箭矢可以穿过&a%placeholder%&r个实体"
+  description: "可以使箭矢穿过&a%placeholder%&r个实体"
   placeholder: "%level% + 1"
   type: normal
   rarity: common
@@ -262,13 +260,13 @@ mending:
 
 vanishing_curse:
   display-name: "消失诅咒"
-  description: "物品会在携带者死亡时消失"
+  description: "该物品会在死亡时消失"
   type: curse
   rarity: epic
 
 soul_speed:
   display-name: "灵魂疾行"
-  description: "在灵魂沙和灵魂土上增加&a%placeholder%%&r的行走速度"
+  description: "在灵魂沙和灵魂土上时,增加&a%placeholder%%&r的行走速度"
   placeholder: "(%level% * 0.105) + 1.3"
   type: normal
   rarity: epic

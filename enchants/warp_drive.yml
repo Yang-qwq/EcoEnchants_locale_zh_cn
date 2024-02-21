@@ -1,5 +1,5 @@
 display-name: "跃迁引擎"
-description: "用箭击中对手会将你传送到对手身边"
+description: "用箭击中目标时会将你传送到目标身边"
 placeholder: "%level%"
 type: special
 

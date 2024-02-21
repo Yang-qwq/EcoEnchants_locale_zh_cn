@@ -1,5 +1,5 @@
 display-name: "快速拉弓"
-description: "让你在 &a%placeholder%%&r 张力下以全速射击箭矢"
+description: "让你在使用&a%placeholder%%&r的张力下可以全速射击箭矢"
 placeholder: "100 - (15 * %level%)"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "瘟疫诅咒"
-description: "死亡后释放一个伤害云，持续&a%placeholder%&r秒"
+display-name: "生化母体"
+description: "死亡后释放一个&a%placeholder%&r秒伤害效果云"
 placeholder: "1 + %level%"
 type: normal
 

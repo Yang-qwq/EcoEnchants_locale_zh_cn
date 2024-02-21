@@ -1,5 +1,5 @@
 display-name: "远古时运"
-description: "掉落时额外增加&a%placeholder%%&r的远古残骸"
+description: "挖掘远古残骸时,将额外增加&a%placeholder%%&r的掉落几率"
 placeholder: "ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "逃离"
-description: "在生命值低于&a20%&r时获得&a%placeholder%%&r的移动速度加成"
+display-name: "游离"
+description: "当生命值低于&a20%&r时,将获得&a%placeholder%%&r的移动速度加成"
 placeholder: "10 * %level%"
 type: normal
 

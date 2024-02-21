@@ -1,5 +1,5 @@
 display-name: "节约"
-description: "在使用烟花时有&a%placeholder%%&r的几率不消耗烟花"
+description: "在使用烟花时,有&a%placeholder%%&r的几率不会消耗"
 placeholder: "%level% * 20"
 type: normal
 

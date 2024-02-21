@@ -1,5 +1,5 @@
 display-name: "安眠锤"
-description: "攻击时有&a%placeholder%%&r的几率使被攻击的生物震荡&a1&r秒"
+description: "攻击时有&a%placeholder%%&r的几率使目标获得&a1&r秒的震荡效果"
 placeholder: "2.5 + 2.5 * %level%"
 type: normal
 

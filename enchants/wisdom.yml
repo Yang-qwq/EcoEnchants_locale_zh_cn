@@ -1,5 +1,5 @@
 display-name: "经验时运"
-description: "&r增加掉落的经验&a%placeholder%%"
+description: "掉落的经验额外增加&a%placeholder%&r"
 placeholder: "100 + %level% * 20"
 type: normal
 

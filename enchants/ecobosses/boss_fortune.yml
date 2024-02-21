@@ -1,5 +1,5 @@
 display-name: "Boss抢夺"
-description: "提供&a%placeholder%%&r的Boss掉落几率加成"
+description: "提供&a%placeholder%%&r的Boss掉落加成"
 placeholder: "5 * %level%"
 type: normal
 

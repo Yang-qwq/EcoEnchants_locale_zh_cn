@@ -1,5 +1,5 @@
-display-name: "向位传送"
-description: "将你向前传送&a%placeholder%&8个方块距离"
+display-name: "☆ 向位传送"
+description: "右键时,将你向前传送&a%placeholder%&r个方块"
 placeholder: "3 + %level% * 2"
 type: spell
 

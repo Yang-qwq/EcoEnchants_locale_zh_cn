@@ -1,5 +1,5 @@
 display-name: "轻功"
-description: "跳跃时不会踩踏作物"
+description: "跳跃时不会踩踏作物和耕田"
 type: normal
 
 targets:

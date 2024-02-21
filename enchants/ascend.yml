@@ -1,5 +1,5 @@
-display-name: "升腾"
-description: "将你悬浮在空中&a%placeholder%&r秒"
+display-name: "☆ 升腾"
+description: "右键时,将你悬浮在空中,持续&a%placeholder%&r秒"
 placeholder: "%level% / 4"
 type: spell
 
