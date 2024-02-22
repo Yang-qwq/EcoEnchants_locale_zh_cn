@@ -1,11 +1,11 @@
 display-name: "窒息保护"
-description: "有&a%placeholder%%&r的几率忽略窒息伤害"
+description: "有&a%placeholder%%&r的几率免疫窒息伤害"
 placeholder: "%level% * 15"
 type: normal
 
 targets:
   - helmet
-conflicts: [ ]
+conflicts: []
 rarity: common
 max-level: 3
 
@@ -23,4 +23,4 @@ effects:
       damage_cause:
         - suffocation
 
-conditions: [ ]
+conditions: []

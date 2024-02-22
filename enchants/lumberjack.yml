@@ -1,11 +1,11 @@
 display-name: "伐木工"
-description: "一次砍倒最多&a%placeholder%&r块树木"
+description: "一次性破坏最多&a%placeholder%&r块木头"
 placeholder: "4 * %level%"
 type: normal
 
 targets:
   - axe
-conflicts: [ ]
+conflicts: []
 rarity: rare
 max-level: 6
 
@@ -38,4 +38,4 @@ effects:
     triggers:
       - mine_block
 
-conditions: [ ]
+conditions: []

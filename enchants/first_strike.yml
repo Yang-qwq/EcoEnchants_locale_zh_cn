@@ -1,12 +1,12 @@
 display-name: "先发制人"
-description: "对处于最大生命值状态的目标造成额外&a%placeholder%% &r的伤害"
+description: "攻击时若目标处于最大生命值状态时,将造成额外&a%placeholder%%&r的伤害"
 placeholder: "30 + 20 * %level%"
 type: normal
 
 targets:
   - sword
   - axe
-conflicts: [ ]
+conflicts: []
 rarity: uncommon
 max-level: 5
 
@@ -23,4 +23,4 @@ effects:
     filters:
       on_max_health: true
 
-conditions: [ ]
+conditions: []

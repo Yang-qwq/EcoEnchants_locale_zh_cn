@@ -1,13 +1,13 @@
-display-name: "破坏诅咒"
+display-name: "采集诅咒"
 description: "有&a%placeholder%%&r的几率无法成功破坏方块"
 placeholder: "15 * %level%"
 type: curse
 
 targets:
-- axe
-- hoe
-- pickaxe
-- shovel
+  - axe
+  - hoe
+  - pickaxe
+  - shovel
 conflicts: []
 rarity: legendary
 max-level: 1

@@ -1,11 +1,11 @@
 display-name: "新陈代谢"
-description: "吃食物时额外增加&a%placeholder%%&r饱食度"
+description: "吃食物时,将额外增加&a%placeholder%%&r的饱食度"
 placeholder: "%level% * 12.5"
 type: normal
 
 targets:
   - chestplate
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 2
 
@@ -18,4 +18,4 @@ effects:
     args:
       multiplier: "1 * %level% * 0.125"
 
-conditions: [ ]
+conditions: []

@@ -1,11 +1,11 @@
 display-name: "麒麟臂"
-description: "额外挖掘&a%placeholder%&r个方块"
+description: "挖掘时,向前额外挖掘&a%placeholder%&r个方块"
 placeholder: "%level%"
 type: normal
 
 targets:
   - shovel
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 5
 
@@ -22,4 +22,4 @@ effects:
     triggers:
       - mine_block
 
-conditions: [ ]
+conditions: []

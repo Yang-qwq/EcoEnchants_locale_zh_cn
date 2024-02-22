@@ -1,5 +1,5 @@
 display-name: "经验时运"
-description: "&r增加掉落的经验&a%placeholder%%"
+description: "掉落的经验额外增加&a%placeholder%&r"
 placeholder: "100 + %level% * 20"
 type: normal
 
@@ -12,7 +12,7 @@ targets:
   - bow
   - crossbow
   - trident
-conflicts: [ ]
+conflicts: []
 rarity: uncommon
 max-level: 3
 
@@ -25,4 +25,4 @@ effects:
     args:
       multiplier: "1.0 + (%level% * 0.2)"
 
-conditions: [ ]
+conditions: []

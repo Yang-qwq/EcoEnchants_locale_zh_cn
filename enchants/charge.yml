@@ -1,11 +1,11 @@
-display-name: "冲锋"
-description: "以&a%placeholder%x&r的速度向前冲锋"
+display-name: "☆ 冲锋"
+description: "右键时,以&a%placeholder%x&r的速度向前冲锋"
 placeholder: "5 * %level%"
 type: spell
 
 targets:
   - sword
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 2
 
@@ -31,4 +31,4 @@ effects:
     triggers:
       - alt_click
 
-conditions: [ ]
+conditions: []

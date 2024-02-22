@@ -1,11 +1,11 @@
 display-name: "肾上腺素"
-description: "在阻挡攻击时，获得&a%placeholder%&r秒的力量加成"
+description: "在抵挡攻击时,将获得&a%placeholder%&r秒的力量效果"
 placeholder: "1 + %level% / 2"
 type: normal
 
 targets:
   - shield
-conflicts: [ ]
+conflicts: []
 rarity: epic
 max-level: 3
 
@@ -24,4 +24,4 @@ effects:
     triggers:
       - shield_block
 
-conditions: [ ]
+conditions: []

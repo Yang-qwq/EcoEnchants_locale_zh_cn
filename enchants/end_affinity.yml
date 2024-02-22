@@ -1,5 +1,5 @@
 display-name: "末地领主"
-description: "在末地中增加&a%placeholder%%&r的伤害"
+description: "在末地中时,将额外增加&a%placeholder%%&r的伤害"
 placeholder: "20 + %level% * 10"
 type: normal
 

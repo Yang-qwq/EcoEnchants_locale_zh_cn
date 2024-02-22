@@ -1,5 +1,5 @@
 display-name: "磨损"
-description: "对敌人的护甲造成&a%placeholder% &r伤害"
+description: "对目标的护甲额外造成&a%placeholder%&r点耐久损耗"
 placeholder: "%level%"
 type: normal
 
@@ -7,7 +7,7 @@ targets:
   - sword
   - axe
 
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 2
 
@@ -22,4 +22,4 @@ effects:
     triggers:
       - melee_attack
 
-conditions: [ ]
+conditions: []

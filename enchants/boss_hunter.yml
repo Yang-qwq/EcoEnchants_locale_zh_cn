@@ -1,12 +1,12 @@
 display-name: "Boss杀手"
-description: "对Boss生物造成额外&a%placeholder%% &r伤害"
+description: "对Boss生物造成额外&a%placeholder%%&r的伤害"
 placeholder: "10 * %level%"
 type: normal
 
 targets:
   - bow
   - crossbow
-conflicts: [ ]
+conflicts: []
 rarity: rare
 max-level: 8
 
@@ -23,4 +23,4 @@ effects:
     filters:
       is_boss: true
 
-conditions: [ ]
+conditions: []

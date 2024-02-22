@@ -1,5 +1,5 @@
 display-name: "巨人杀手"
-description: "当你的对手拥有更多的生命值时会额外造成伤害，额外伤害为&a%damage%x，上限为&a%limit%x。"
+description: "当目标拥有更多的生命值时,将额外造成&a%damage%x&r(上限为&a%limit%x&r)伤害"
 placeholders:
   damage: "0.5 + %level% * 0.1"
   limit: "1.6 + %level% * 0.4"
@@ -7,7 +7,7 @@ type: normal
 
 targets:
   - sword
-conflicts: [ ]
+conflicts: []
 rarity: rare
 max-level: 6
 
@@ -22,4 +22,4 @@ effects:
     triggers:
       - melee_attack
 
-conditions: [ ]
+conditions: []

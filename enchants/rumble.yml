@@ -1,5 +1,5 @@
-display-name: "冲击"
-description: "对半径为&a%radius%&r的范围内所有实体造成&a%damage%&r的伤害"
+display-name: "☆ 冲击"
+description: "右键时,对半径为&a%radius%&r格范围内所有实体造成&a%damage%&r点伤害"
 placeholders:
   radius: "2 + %level%"
   damage: "3 * %level%"
@@ -7,7 +7,7 @@ type: spell
 
 targets:
   - sword
-conflicts: [ ]
+conflicts: []
 rarity: epic
 max-level: 3
 
@@ -36,4 +36,4 @@ effects:
     triggers:
       - alt_click
 
-conditions: [ ]
+conditions: []

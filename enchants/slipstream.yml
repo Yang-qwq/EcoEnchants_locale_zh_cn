@@ -1,11 +1,11 @@
 display-name: "滑流"
-description: "握持时增加&a%placeholder%%&r的移动速度加成"
+description: "握持时,将额外增加&a%placeholder%%&r的移动速度"
 placeholder: "%level% * 8"
 type: normal
 
 targets:
   - trident
-conflicts: [ ]
+conflicts: []
 rarity: epic
 max-level: 3
 
@@ -18,4 +18,4 @@ effects:
     args:
       multiplier: "1 + %level% * 0.08"
 
-conditions: [ ]
+conditions: []

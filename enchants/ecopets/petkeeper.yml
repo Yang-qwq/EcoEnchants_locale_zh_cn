@@ -1,11 +1,11 @@
-display-name: "宠物保姆"
+display-name: "训练家"
 description: "提供&a%placeholder%%&r的宠物经验加成"
 placeholder: "%level%"
 type: normal
 
 targets:
   - armor
-conflicts: [ ]
+conflicts: []
 rarity: epic
 max-level: 4
 
@@ -18,7 +18,7 @@ effects:
     args:
       multiplier: "1 + 0.01 * %level%"
 
-conditions: [ ]
+conditions: []
 
 dependencies:
   - EcoPets

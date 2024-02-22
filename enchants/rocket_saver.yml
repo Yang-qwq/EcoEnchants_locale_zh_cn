@@ -1,11 +1,11 @@
 display-name: "节约"
-description: "在使用烟花时有&a%placeholder%%&r的几率不消耗烟花"
+description: "在使用烟花时,有&a%placeholder%%&r的几率不会消耗"
 placeholder: "%level% * 20"
 type: normal
 
 targets:
   - elytra
-conflicts: [ ]
+conflicts: []
 rarity: rare
 max-level: 3
 
@@ -18,4 +18,4 @@ effects:
     args:
       chance: "%level% * 20"
 
-conditions: [ ]
+conditions: []

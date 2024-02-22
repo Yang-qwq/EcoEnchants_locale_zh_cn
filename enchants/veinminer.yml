@@ -1,5 +1,5 @@
 display-name: "连锁"
-description: "一次挖掘多达&a%placeholder%&r个方块的矿脉"
+description: "挖掘矿石时,最多连锁&a%placeholder%&r个相同方块"
 placeholder: "2 + 3 * %level%"
 type: normal
 
@@ -42,4 +42,4 @@ effects:
     triggers:
       - mine_block
 
-conditions: [ ]
+conditions: []

@@ -1,11 +1,11 @@
 display-name: "反弹"
-description: "将 &a%placeholder%%&r 的受到伤害反弹给攻击者"
+description: "将受到的&a%placeholder%%&r伤害反弹给攻击者"
 placeholder: "20 + %level% * 10"
 type: normal
 
 targets:
   - shield
-conflicts: [ ]
+conflicts: []
 rarity: epic
 max-level: 3
 
@@ -21,4 +21,4 @@ effects:
     triggers:
       - shield_block
 
-conditions: [ ]
+conditions: []

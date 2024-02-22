@@ -1,11 +1,11 @@
 display-name: "忍者"
-description: "在潜行状态下造成的伤害增加&a%placeholder%%&r"
+description: "在潜行时,将额外造成&a%placeholder%%&r的伤害"
 placeholder: "0.5 + %level% * 0.5"
 type: normal
 
 targets:
   - sword
-conflicts: [ ]
+conflicts: []
 rarity: rare
 max-level: 5
 

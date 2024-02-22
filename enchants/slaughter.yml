@@ -1,5 +1,5 @@
 display-name: "屠夫"
-description: "对友好生物造成的近战伤害增加&a%placeholder%&r"
+description: "对友好生物额外造成&a%placeholder%&r点伤害"
 placeholder: "2.5 * %level%"
 type: normal
 
@@ -38,4 +38,4 @@ effects:
         - axolotl
         - chicken
 
-conditions: [ ]
+conditions: []
