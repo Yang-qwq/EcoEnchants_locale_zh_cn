@@ -1,11 +1,11 @@
 display-name: "疾袭"
-description: "在奔跑时，攻击速度额外提升&a%placeholder%%&r"
+description: "在疾跑时,攻击速度额外提升&a%placeholder%%&r"
 placeholder: "5 * %level%"
 type: normal
 
 targets:
   - sword
-conflicts: [ ]
+conflicts: []
 rarity: rare
 max-level: 3
 
@@ -17,7 +17,7 @@ effects:
   - id: attack_speed_multiplier
     args:
       multiplier: "1 + %level% * 0.05"
-    triggers: [ ]
+    triggers: []
 
 conditions:
   - id: is_sprinting

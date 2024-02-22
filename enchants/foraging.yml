@@ -1,11 +1,11 @@
-display-name: "苹果收割"
-description: "提高&a%placeholder%%&r苹果从树叶上掉落的概率"
+display-name: "果农"
+description: "破坏树叶时，将额外提高&a%placeholder%%&r的几率掉落苹果"
 placeholder: "ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)"
 type: normal
 
 targets:
   - shears
-conflicts: [ ]
+conflicts: []
 rarity: common
 max-level: 4
 
@@ -22,4 +22,4 @@ effects:
     triggers:
       - block_item_drop
 
-conditions: [ ]
+conditions: []

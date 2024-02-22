@@ -1,13 +1,13 @@
 display-name: "倒霉诅咒"
-description: "有&a%placeholder%% &r的几率方块不掉落物品"
+description: "破坏方块时有&a%placeholder%%&r的几率不掉落战利品"
 placeholder: "15 * %level%"
 type: curse
 
 targets:
-- hoe
-- shovel
-- pickaxe
-- axe
+  - hoe
+  - shovel
+  - pickaxe
+  - axe
 conflicts: []
 rarity: legendary
 max-level: 1

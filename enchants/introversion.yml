@@ -1,5 +1,5 @@
-display-name: "内敛"
-description: "对玩家造成的近战伤害获得额外&a%placeholder%&r加成"
+display-name: "内斗"
+description: "对玩家额外造成&a%placeholder%&r点伤害"
 placeholder: "2.5 * %level%"
 type: normal
 
@@ -28,4 +28,4 @@ effects:
       entities:
         - player
 
-conditions: [ ]
+conditions: []

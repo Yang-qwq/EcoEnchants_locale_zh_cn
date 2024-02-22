@@ -1,5 +1,5 @@
 display-name: "逃逸"
-description: "在受到伤害后获得&a%placeholder%%&r秒的短暂加速"
+description: "在受到伤害后,将获得&a%placeholder%%&r的奔跑速度加成"
 placeholder: "%level%"
 type: normal
 
@@ -23,5 +23,5 @@ effects:
       apply_to_player: true
     triggers:
       - take_entity_damage
-      
-conditions: [ ]
+
+conditions: []

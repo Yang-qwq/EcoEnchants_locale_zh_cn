@@ -1,5 +1,5 @@
 display-name: "光环"
-description: "距离你&a%radius%&r格内的玩家受到的伤害减少&a%reduction%%&r"
+description: "距离你&a%radius%&r格内的玩家受到的伤害降低&a%reduction%%&r"
 placeholders:
   reduction: "%level% * 10"
   radius: "3 + %level% * 2"
@@ -8,7 +8,7 @@ type: special
 targets:
   - chestplate
   - leggings
-conflicts: [ ]
+conflicts: []
 rarity: special
 max-level: 2
 
@@ -28,4 +28,4 @@ effects:
             - take_damage
       conditions: []
 
-conditions: [ ]
+conditions: []

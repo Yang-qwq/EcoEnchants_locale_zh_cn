@@ -1,11 +1,11 @@
 display-name: "坚韧"
-description: "提供&a%placeholder%%&r的额外伤害加成"
+description: "额外提供&a%placeholder%%&r的伤害加成"
 placeholder: "%level% * 2"
 type: normal
 
 targets:
   - armor
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 2
 
@@ -22,4 +22,4 @@ effects:
       - bow_attack
       - trident_attack
 
-conditions: [ ]
+conditions: []

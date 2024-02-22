@@ -1,5 +1,5 @@
-display-name: "爆破艺术"
-description: "在一个&a%placeholder%x%placeholder%&r的区域内挖掘方块"
+display-name: "☆ 爆破艺术"
+description: "右键时,挖掘&a%placeholder%x%placeholder%&r区域的方块"
 placeholder: "1 + %level% * 4"
 type: spell
 
@@ -15,27 +15,27 @@ enchantable: true
 
 effects:
   - effects:
-    - id: create_explosion
-      args:
-        power: 0
-        amount: "%level% * 2"
+      - id: create_explosion
+        args:
+          power: 0
+          amount: "%level% * 2"
 
-    - id: mine_radius
-      args:
-        radius: "2 * %level%"
-        blacklisted_blocks:
-          - obsidian
-          - barrier
-          - bedrock
-        check_hardness: false
+      - id: mine_radius
+        args:
+          radius: "2 * %level%"
+          blacklisted_blocks:
+            - obsidian
+            - barrier
+            - bedrock
+          check_hardness: false
 
-    - id: play_sound
-      args:
-        sound: entity_dragon_fireball_explode
-        pitch: 1
-        volume: 1
+      - id: play_sound
+        args:
+          sound: entity_dragon_fireball_explode
+          pitch: 1
+          volume: 1
 
-    - id: break_block
+      - id: break_block
 
     args:
       cooldown: 60

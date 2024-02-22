@@ -1,11 +1,11 @@
 display-name: "生机勃勃"
-description: "提供&a%placeholder%&r的额外生命值加成"
+description: "提供额外&a%placeholder%&r点生命值"
 placeholder: "%level%"
 type: normal
 
 targets:
   - armor
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 2
 
@@ -18,4 +18,4 @@ effects:
     args:
       health: "%level%"
 
-conditions: [ ]
+conditions: []

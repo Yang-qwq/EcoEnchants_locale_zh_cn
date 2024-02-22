@@ -1,11 +1,11 @@
 display-name: "混乱"
-description: "有&a%placeholder%% &r的几率打乱你对手的快捷栏"
+description: "有&a%placeholder%%&r的几率打乱目标的快捷栏"
 placeholder: "2 * %level%"
 type: special
 
 targets:
   - sword
-conflicts: [ ]
+conflicts: []
 rarity: special
 max-level: 4
 
@@ -20,4 +20,4 @@ effects:
     triggers:
       - melee_attack
 
-conditions: [ ]
+conditions: []

@@ -1,4 +1,4 @@
-display-name: "刺激"
+display-name: "☆ 潜能激发"
 description: "在&a%seconds%&r秒内，提供&a%bonus%%&r的所有属性加成"
 placeholders:
   bonus: "10 * %level%"
@@ -7,7 +7,7 @@ type: spell
 
 targets:
   - sword
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 2
 
@@ -23,7 +23,7 @@ effects:
             - id: multiply_all_stats
               args:
                 multiplier: "1 + 0.1 * %level%"
-          conditions: [ ]
+          conditions: []
           duration: "3 * %level% * 20"
 
       - id: play_sound
@@ -38,7 +38,7 @@ effects:
     triggers:
       - alt_click
 
-conditions: [ ]
+conditions: []
 
 dependencies:
   - EcoSkills

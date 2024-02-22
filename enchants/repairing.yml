@@ -1,5 +1,5 @@
 display-name: "自我修复"
-description: "每&a%frequency% &r秒自动恢复&a%amount%&r耐久度"
+description: "每隔&a%frequency%&r秒自动恢复&a%amount%&r点耐久度"
 type: special
 placeholders:
   frequency: "1.5"
@@ -16,8 +16,13 @@ tradeable: true
 discoverable: true
 enchantable: true
 
-conditions: [ ]
+conditions: []
 
-repair-per-level: 1 # The amount of durability to add on each item
-frequency: 30 # How often to repair the item (in ticks, doesn't support %level%)
-not-while-holding: true # If items shouldn't be repaired while they are being held
+# 每个物品上应添加的耐久度数量
+repair-per-level: 1
+
+# 修复物品的频率（以刻为单位，不支持 %level%）
+frequency: 30
+
+# 是否在物品在被持有时进行修复
+not-while-holding: true

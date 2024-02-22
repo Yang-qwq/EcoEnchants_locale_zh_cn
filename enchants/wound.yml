@@ -1,5 +1,5 @@
 display-name: "创伤"
-description: "攻击时有&a%chance%%&r的几率给予对手&a%damage% &r伤害，持续&a%duration%&r秒"
+description: "攻击时有&a%chance%%&r的几率给予目标持续&a%duration%&r秒的&a%damage%&r点伤害"
 placeholders:
   chance: "%level% * 3"
   duration: "0.75 * (%level% + 2)"
@@ -28,4 +28,4 @@ effects:
     triggers:
       - bow_attack
 
-conditions: [ ]
+conditions: []

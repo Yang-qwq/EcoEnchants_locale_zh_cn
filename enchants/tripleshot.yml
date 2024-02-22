@@ -1,10 +1,10 @@
 display-name: "三重射击"
-description: "发射三支箭矢而非一支"
+description: "一次装填发射三支箭矢"
 type: normal
 
 targets:
   - bow
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 1
 
@@ -21,4 +21,4 @@ effects:
     triggers:
       - shoot_bow
 
-conditions: [ ]
+conditions: []

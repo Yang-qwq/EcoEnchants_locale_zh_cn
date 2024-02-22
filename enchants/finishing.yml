@@ -1,12 +1,12 @@
 display-name: "致命一击"
-description: "根据对手损失的每一点生命值增加&a%placeholder%%&r的伤害"
+description: "基于目标损失的每一点生命值,将增加&a%placeholder%%&r的伤害"
 placeholder: "0.2 * %level%"
 type: normal
 
 targets:
   - sword
   - axe
-conflicts: [ ]
+conflicts: []
 rarity: uncommon
 max-level: 5
 
@@ -21,4 +21,4 @@ effects:
     triggers:
       - melee_attack
 
-conditions: [ ]
+conditions: []

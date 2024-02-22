@@ -1,12 +1,12 @@
 display-name: "宙斯之力"
-description: "有&a%chance%%&r的几率在攻击对手时触发&a%bolts%&r道闪电"
+description: "有&a%chance%%&r的几率在攻击目标时触发&a%bolts%&r道闪电"
 placeholders:
   chance: "%level%"
   bolts: "ceil(%level% / 2)"
 type: normal
 
 targets:
-  - bow 
+  - bow
   - crossbow
 conflicts: []
 rarity: epic
@@ -24,4 +24,4 @@ effects:
     triggers:
       - bow_attack
 
-conditions: [ ]
+conditions: []

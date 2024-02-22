@@ -1,10 +1,10 @@
 display-name: "轻功"
-description: "跳跃时不会踩踏作物"
+description: "跳跃时不会踩踏作物和耕田"
 type: normal
 
 targets:
   - boots
-conflicts: [ ]
+conflicts: []
 rarity: legendary
 max-level: 1
 
@@ -15,4 +15,4 @@ enchantable: true
 effects:
   - id: feather_step
 
-conditions: [ ]
+conditions: []
