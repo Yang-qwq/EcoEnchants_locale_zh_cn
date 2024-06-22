@@ -5,77 +5,77 @@ impaling:
   description: 对水生生物额外增加&a%placeholder%&r点伤害
   type: normal
   display-name: 穿刺
-  name: Impaling
+  name: 穿刺
   placeholder: "%level% * 2.5"
   rarity: rare
 thorns:
   description: 有&a%placeholder%%&r的几率将部分伤害反射给攻击者
   type: normal
   display-name: 荆棘
-  name: Thorns
+  name: 荆棘
   placeholder: "%level% * 15"
   rarity: epic
 smite:
   description: 对亡灵生物额外增加&a%placeholder%&r点伤害
   type: normal
   display-name: 亡灵杀手
-  name: Smite
+  name: 亡灵杀手
   placeholder: 2.5 * %level%
   rarity: uncommon
 unbreaking:
   description: 增加&a%placeholder%&r倍的耐久度
   type: normal
   display-name: 耐久
-  name: Unbreaking
+  name: 耐久
   placeholder: "%level% + 1"
   rarity: uncommon
 feather_falling:
   description: 减少&a%placeholder%%&r的摔落伤害
   type: normal
   display-name: 摔落缓冲
-  name: Feather Falling
+  name: 摔落缓冲
   placeholder: "%level% * 12"
   rarity: uncommon
 respiration:
   placeholders:
     seconds: 15 * %level%
     chance: "%level% / (%level% + 1)"
-  description: 延长&a%seconds%&r秒的水下呼吸时间,同时有&a%chance%%&r的几率免疫溺水伤害
+  description: 延长&a%seconds%&r秒的水下呼吸时间，同时有&a%chance%%&r的几率免疫溺水伤害
   type: normal
   display-name: 水下呼吸
-  name: Respiration
+  name: 水下呼吸
   rarity: rare
 projectile_protection:
   description: 减少&a%placeholder%%&r的弹射物伤害
   type: normal
   display-name: 弹射物保护
-  name: Projectile Protection
+  name: 弹射物保护
   placeholder: "%level% * 8"
   rarity: uncommon
 knockback:
-  description: 攻击时,增加&a%placeholder%%&r的击退效果
+  description: 攻击时，增加&a%placeholder%%&r的击退效果
   type: normal
   display-name: 击退
-  name: Knockback
+  name: 击退
   placeholder: "%level% * 85 + 20"
   rarity: uncommon
 fire_aspect:
   description: 使目标着火&a4&r秒,并且每次火焰造成&a%placeholder%&r点伤害
   type: normal
   display-name: 火焰附加
-  name: Fire Aspect
+  name: 火焰附加
   placeholder: (%level% * 4) - 1
   rarity: rare
 luck_of_the_sea:
   description: 增加&a%placeholder%%的宝藏概率
   type: normal
   display-name: 海之眷顾
-  name: Luck of the Sea
+  name: 海之眷顾
   placeholder: 2 * %level%
   rarity: rare
 channeling:
   display-name: 引雷
-  name: Channeling
+  name: 引雷
   description: 在雷暴天气时，击中目标产生闪电
   type: normal
   rarity: epic
@@ -83,7 +83,7 @@ sharpness:
   description: 额外增加&a%placeholder%&r点近战伤害
   type: normal
   display-name: 锋利
-  name: Sharpness
+  name: 锋利
   placeholder: 0.5 * %level% + 1
   rarity: common
 bane_of_arthropods:
