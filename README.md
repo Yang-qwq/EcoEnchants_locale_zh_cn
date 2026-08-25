@@ -1,6 +1,8 @@
+
+
 # EcoEnchants_locale_zh_cn
 
-EcoEnchants插件的简体中文中文汉化
+EcoEnchants插件的简体中文汉化
 
 ## 注意事项
 
